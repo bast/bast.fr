@@ -66,10 +66,16 @@ the mentioned static site generators (I am using this not only for Zola but
 also for pages built with Sphinx).
 
 All you need to do is to add (and adapt, more about this later) the file
-`.github/workflows/build.yml` to your GitHub repository with the following content:
-
+`.github/workflows/build.yml` to your GitHub repository with the following content
+(I am grateful to Richard Darst for many improvements of the original workflow
+towards its current form):
 ```yml
-name: Build website
+name: Build/deploy website
+
+env:
+  ZOLA_VERSION: "0.15.3"
+  MAIN_BRANCH: "main"
+  TARGET_BRANCH: "gh-pages"
 
 on:
   push:
@@ -81,59 +87,43 @@ on:
 
 jobs:
   build:
-    # we use mac because zola is not distributed in ubuntu (?)
-    # and I did not want to cargo build zola as part of the workflow
-    runs-on: macos-10.15
-    if: github.ref == 'refs/heads/main'
-    env:
-      TARGET_BRANCH: master
+    runs-on: ubuntu-latest
     steps:
     - name: Check out repo
       uses: actions/checkout@v2
     - name: Install zola
-      run: brew install zola
+      run: |
+        set -x
+        wget -O - \
+           "https://github.com/getzola/zola/releases/download/v${ZOLA_VERSION}/zola-v${ZOLA_VERSION}-x86_64-unknown-linux-gnu.tar.gz" \
+        | sudo tar xzf - -C /usr/local/bin
     - name: Generate HTML
       run: zola build
-    - name: Commit and push to target branch
-      run: |-
-        git config --global user.email "workflow-bot@example.com"
-        git config --global user.name "workflow-bot"
-        git checkout --orphan $TARGET_BRANCH
-        git rm --cached -r .
-        mv public ..
-        rm -rf *
-        mv ../public/* .
-        touch .nojekyll
-        git add .
-        git commit -m "generated using zola build"
-        git push --set-upstream origin $TARGET_BRANCH --force
+    - name: Deploy to gh-pages
+      if: ${{ github.event_name == 'push' && github.ref == format('refs/heads/{0}', env.MAIN_BRANCH) }}
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+        force_orphan: true
 ```
 
-You may need to adapt the source branch (this is where the Zola sources are; in
-this example: `main`, mentioned three times) and the target branch (this is
+You will need to adapt `$MAIN_BRANCH` (this is where the Zola sources are; in
+this example: `main`) and `$TARGET_BRANCH` (this is
 the branch which contains the generated HTML and is used by GitHub Pages; in
-this example: `TARGET_BRANCH: master`).
+this example: `gh-pages`).
 
 This workflow creates a new target branch every time the source branch is
 modified.
 
+- For project pages of the form `github.com/mynamespace/myproject` the source
+  branch is typically `main` and the target branch is typically `gh-pages`.
 - The target branch is `master` for homepages or project pages of the form
   `github.com/myuser/myuser.github.io` and
   `github.com/myproject/myproject.github.io`.
 
-- For project pages of the form `github.com/mynamespace/myproject` the source
-  branch is typically `main` and the target branch is typically `gh-pages`.
-
 But the nice thing is that the above workflow is easily adaptable to either
 situation.
-
-One more question: why did I use `macos-10.15` for the build and not
-`ubunutu-latest`? Because as of writing, surprisingly to me, Ubuntu does not
-ship Zola ([many other distributions are
-supported](https://www.getzola.org/documentation/getting-started/installation/)).
-I did not want to build Zola from sources for every page rebuild (although it
-would not have been difficult), so I went for a macOS build where I can install
-Zola with a one-liner (`brew install zola`).
 
 Once you adapt, commit, and push this file, all that remains is to enable
 GitHub Pages under the repository settings page. That's it!
@@ -143,7 +133,14 @@ GitHub Pages under the repository settings page. That's it!
 
 [Zola](https://www.getzola.org/) is a really nice tool with great documentation - try it out!
 Indeed, this website is built using Zola and
-[here](https://github.com/bast/bast.github.io/blob/main/.github/workflows/build.yml)
-is the workflow that I am using to build this site. *Edit: Do note the current workflow now relies on an Ubuntu builder which pulls the Linux Zola binaries directly from the official repository.*
+[here](https://github.com/bast/bast.fr/blob/main/.github/workflows/build.yml)
+is the workflow that I am using to build this site.
 With the above recipe setting up a Zola build is no more difficult than setting
 up a Jekyll build.
+
+
+## Edits
+
+- In a previous version of this post I was using `macos-10.15` for the build
+  and not `ubuntu-latest`. I have later switched to `ubuntu-latest` for
+  faster/sooner workflow runs.
