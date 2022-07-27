@@ -74,17 +74,17 @@ name: Build website
 on:
   push:
     branches:
-      - source
+      - main
   pull_request:
     branches:
-      - source
+      - main
 
 jobs:
   build:
     # we use mac because zola is not distributed in ubuntu (?)
     # and I did not want to cargo build zola as part of the workflow
     runs-on: macos-10.15
-    if: github.ref == 'refs/heads/source'
+    if: github.ref == 'refs/heads/main'
     env:
       TARGET_BRANCH: master
     steps:
@@ -110,7 +110,7 @@ jobs:
 ```
 
 You may need to adapt the source branch (this is where the Zola sources are; in
-this example: `source`, mentioned three times) and the target branch (this is
+this example: `main`, mentioned three times) and the target branch (this is
 the branch which contains the generated HTML and is used by GitHub Pages; in
 this example: `TARGET_BRANCH: master`).
 
@@ -122,7 +122,7 @@ modified.
   `github.com/myproject/myproject.github.io`.
 
 - For project pages of the form `github.com/mynamespace/myproject` the source
-  branch is typically `master` and the target branch is typically `gh-pages`.
+  branch is typically `main` and the target branch is typically `gh-pages`.
 
 But the nice thing is that the above workflow is easily adaptable to either
 situation.
@@ -143,7 +143,7 @@ GitHub Pages under the repository settings page. That's it!
 
 [Zola](https://www.getzola.org/) is a really nice tool with great documentation - try it out!
 Indeed, this website is built using Zola and
-[here](https://github.com/bast/bast.github.io/blob/source/.github/workflows/build.yml)
-is the workflow that I am using to build this site.
+[here](https://github.com/bast/bast.github.io/blob/main/.github/workflows/build.yml)
+is the workflow that I am using to build this site. *Edit: Do note the current workflow now relies on an Ubuntu builder which pulls the Linux Zola binaries directly from the official repository.*
 With the above recipe setting up a Zola build is no more difficult than setting
 up a Jekyll build.
