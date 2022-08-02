@@ -74,7 +74,7 @@ name: Build/deploy website
 
 env:
   ZOLA_VERSION: "0.15.3"
-  MAIN_BRANCH: "main"
+  SOURCE_BRANCH: "main"
   TARGET_BRANCH: "gh-pages"
 
 on:
@@ -100,7 +100,7 @@ jobs:
     - name: Generate HTML
       run: zola build
     - name: Deploy to gh-pages
-      if: ${{ github.event_name == 'push' && github.ref == format('refs/heads/{0}', env.MAIN_BRANCH) }}
+      if: ${{ github.event_name == 'push' && github.ref == format('refs/heads/{0}', env.SOURCE_BRANCH) }}
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -108,8 +108,8 @@ jobs:
         force_orphan: true
 ```
 
-You will need to adapt `$MAIN_BRANCH` (this is where the Zola sources are; in
-this example: `main`) and `$TARGET_BRANCH` (this is
+You will need to adapt `SOURCE_BRANCH` (this is where the Zola sources are; in
+this example: `main`) and `TARGET_BRANCH` (this is
 the branch which contains the generated HTML and is used by GitHub Pages; in
 this example: `gh-pages`).
 
@@ -120,7 +120,9 @@ modified.
   branch is typically `main` and the target branch is typically `gh-pages`.
 - The target branch is `master` for homepages or project pages of the form
   `github.com/myuser/myuser.github.io` and
-  `github.com/myproject/myproject.github.io`.
+  `github.com/myproject/myproject.github.io`. Make sure that `SOURCE_BRANCH` and
+  `TARGET_BRANCH` have different names. In this case I like to call `SOURCE_BRANCH`
+  as `source`.
 
 But the nice thing is that the above workflow is easily adaptable to either
 situation.
