@@ -15,7 +15,7 @@ name: Build/deploy website
 
 env:
   ZOLA_VERSION: "0.15.3"
-  MAIN_BRANCH: "main"
+  SOURCE_BRANCH: "main"
   TARGET_BRANCH: "gh-pages"
   CNAME: "bast.fr"
 
@@ -56,7 +56,7 @@ jobs:
             echo "Used CNAME from the action workflow file"
         fi
     - name: Deploy to gh-pages
-      if: ${{ github.event_name == 'push' && github.ref == format('refs/heads/{0}', env.MAIN_BRANCH) }}
+      if: ${{ github.event_name == 'push' && github.ref == format('refs/heads/{0}', env.SOURCE_BRANCH) }}
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
