@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://bast.fr/</loc>
+    </url>
+    <url>
+        <loc>https://bast.fr/about/</loc>
+    </url>
+    <url>
+        <loc>https://bast.fr/blog/</loc>
+    </url>
+    <url>
+        <loc>https://bast.fr/blog/holy-rust-modules-batman/</loc>
+        <lastmod>2020-10-03</lastmod>
+    </url>
+    <url>
+        <loc>https://bast.fr/blog/zola-github-pages/</loc>
+        <lastmod>2020-09-19</lastmod>
+    </url>
+    <url>
+        <loc>https://bast.fr/bookmarks/</loc>
+    </url>
+    <url>
+        <loc>https://bast.fr/projects/</loc>
+    </url>
+    <url>
+        <loc>https://bast.fr/publications/</loc>
+    </url>
+    <url>
+        <loc>https://bast.fr/publications/latex/</loc>
+    </url>
+</urlset>

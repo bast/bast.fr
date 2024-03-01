@@ -1,0 +1,1017 @@
+[[sections]]
+name = "APIs"
+
+[[sections.links]]
+url = "https://www.programmableweb.com"
+text = "APIs, Mashups and the Web as Platform"
+
+[[sections.links]]
+url = "https://swapi.co"
+text = "The Star Wars API"
+
+
+
+[[sections]]
+name = "Books"
+
+[[sections.links]]
+url = "https://basecamp.com/about/books"
+text = "Basecamp books"
+
+[[sections.links]]
+url = "https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html"
+text = "The Structure and Interpretation of Computer Programs"
+
+
+
+[[sections]]
+name = "Category theory"
+
+[[sections.links]]
+url = "https://www.infoq.com/presentations/category-theory-propositions-principle/"
+text = "Category Theory for the Working Hacker"
+
+
+
+[[sections]]
+name = "CMake"
+
+[[sections.links]]
+url = "http://voices.canonical.com/jussi.pakkanen/2013/03/26/a-list-of-common-cmake-antipatterns/"
+text = "A list of common CMake antipatterns"
+
+[[sections.links]]
+url = "https://www.youtube.com/watch?v=TqjtN8NGtl4"
+text = "Building Science with CMake"
+
+[[sections.links]]
+url = "https://samthursfield.wordpress.com/2015/10/20/some-cmake-tips/"
+text = "Some CMake tips"
+
+[[sections.links]]
+url = "https://samthursfield.wordpress.com/2015/11/21/cmake-dependencies-between-targets-and-files-and-custom-commands/"
+text = "CMake: dependencies between targets and files and custom commands"
+
+[[sections.links]]
+url = "https://github.com/onqtam/awesome-cmake"
+text = "A curated list of awesome CMake resources."
+
+
+
+[[sections]]
+name = "Code development"
+
+[[sections.links]]
+url = "http://vimcasts.org"
+text = "Free screencasts about the text editor Vim"
+
+[[sections.links]]
+url = "http://lucumr.pocoo.org/2013/8/18/beautiful-native-libraries/"
+text = "Beautiful Native Libraries"
+
+[[sections.links]]
+url = "http://hintjens.com/blog:98"
+text = "Ten Habits of a Good Programmer"
+
+[[sections.links]]
+url = "http://demangler.com"
+text = "GCC and MSVC C++ Demangler"
+
+[[sections.links]]
+url = "http://pu.inf.uni-tuebingen.de/users/klaeren/epigrams.html"
+text = "Epigrams on Programming"
+
+
+
+[[sections]]
+name = "Code review"
+
+[[sections.links]]
+url = "https://about.gitlab.com/2015/08/05/6-reasons-why-pre-is-better-than-post-production-code-review/"
+text = "6 reasons why pre is better than post production code review"
+
+[[sections.links]]
+url = "https://blog.jasonmeridth.com/posts/do-not-issue-pull-requests-from-your-master-branch/"
+text = "Do Not Issue Pull Requests From Your Master Branch"
+
+
+
+[[sections]]
+name = "Comics"
+
+[[sections.links]]
+url = "http://pbfcomics.com"
+text = "The Perry Bible Fellowship"
+
+[[sections.links]]
+url = "http://www.smbc-comics.com"
+text = "Saturday Morning Breakfast Cereal"
+
+[[sections.links]]
+url = "http://www.lunarbaboon.com"
+text = "Lunarbaboon"
+
+[[sections.links]]
+url = "http://www.incidentalcomics.com"
+text = "Incidental comics"
+
+
+
+[[sections]]
+name = "Conference preparation"
+
+[[sections.links]]
+url = "https://github.com/mxsasha/lessobviouschecklist/blob/master/README.md"
+text = "The Less Obvious Conference Checklist"
+
+
+
+[[sections]]
+name = "Data"
+
+[[sections.links]]
+url = "http://openrefine.org"
+text = "OpenRefine"
+
+[[sections.links]]
+url = "https://whaletracking.uit.no"
+text = "Whale tracking"
+
+
+
+[[sections]]
+name = "Documentation"
+
+[[sections.links]]
+url = "http://sphinx-doc.org"
+text = "Sphinx"
+
+[[sections.links]]
+url = "http://breathe.readthedocs.io"
+text = "Breathe"
+
+[[sections.links]]
+url = "http://www.writethedocs.org/guide/"
+text = "Write the Docs"
+
+[[sections.links]]
+url = "http://scholarlymarkdown.com"
+text = "Scholarly markdown"
+
+
+
+[[sections]]
+name = "Domain names"
+
+[[sections.links]]
+url = "https://www.namemesh.com"
+text = "Namemesh"
+
+[[sections.links]]
+url = "https://domaintyper.com"
+text = "Domaintyper"
+
+
+
+[[sections]]
+name = "Encryption"
+
+[[sections.links]]
+url = "https://wiki.osuosl.org/howtos/ssh_key_tutorial.html"
+text = "SSH key tutorial"
+
+
+
+[[sections]]
+name = "Fortran"
+
+[[sections.links]]
+url = "http://www.ibiblio.org/pub/languages/fortran/ch1-8.html"
+text = "Fortran common pitfalls"
+
+[[sections.links]]
+url = "http://www.fortran90.org/src/best-practices.html"
+text = "Fortran Best Practices"
+
+[[sections.links]]
+url = "http://flibs.sourceforge.net/guidelines.html"
+text = "Possible guidelines for reviewing Fortran code"
+
+
+
+[[sections]]
+name = "Functional programming"
+
+[[sections.links]]
+url = "http://www.cs.cmu.edu/~rwh/theses/okasaki.pdf"
+text = "Purely Functional Data Structures"
+
+[[sections.links]]
+url = "https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming"
+text = "A practical introduction to functional programming"
+
+[[sections.links]]
+url = "https://www.cs.kent.ac.uk/people/staff/dat/miranda/whyfp90.pdf"
+text = "Why Functional Programming Matters"
+
+[[sections.links]]
+url = "http://www.stephendiehl.com/posts/monads.html"
+text = "Monads Made Difficult"
+
+[[sections.links]]
+url = "http://fsharpforfunandprofit.com/series/thinking-functionally.html"
+text = "The \"Thinking functionally\" series"
+
+
+
+[[sections]]
+name = "Fun for geeks"
+
+[[sections.links]]
+url = "http://www.ioccc.org"
+text = "The International Obfuscated C Code Contest"
+
+[[sections.links]]
+url = "https://archive.org/details/internetarcade/"
+text = "The Internet Archive Software Collection"
+
+[[sections.links]]
+url = "https://archive.org/details/softwarelibrary_msdos_games/v2/"
+text = "The Internet Archive MSDOS Games Collection"
+
+[[sections.links]]
+url = "http://www.bobhobbs.com/files/kr_lovecraft.html"
+text = "Recursion in C"
+
+[[sections.links]]
+url = "http://mjambon.github.io/vim-vs-emacs/"
+text = "Vi vs. Emacs"
+
+[[sections.links]]
+url = "http://www.cs.unm.edu/~dlchao/flake/doom/"
+text = "Doom as a tool for system administration"
+
+[[sections.links]]
+url = "http://www.wolframalpha.com/input/?i=batman+equation"
+text = "Batman equation"
+
+[[sections.links]]
+url = "http://i.kinja-img.com/gawker-media/image/upload/s--5Oz28VO4--/18u5u6m2tptlmjpg.jpg"
+text = "Drop database"
+
+[[sections.links]]
+url = "http://www.sansbullshitsans.com"
+text = "Sans Bullshit Sans"
+
+[[sections.links]]
+url = "https://gundersen.net/functional-floppy-disks-in-2015/"
+text = "Functional Floppy Disks - in 2015"
+
+[[sections.links]]
+url = "https://dev.to/rly"
+text = "O RLY Cover Generator"
+
+[[sections.links]]
+url = "https://joelgrus.com/2016/05/23/fizz-buzz-in-tensorflow/"
+text = "Fizz Buzz in Tensorflow"
+
+[[sections.links]]
+url = "https://takipi.github.io/java-bullshifier/"
+text = "Java Bullshifier"
+
+[[sections.links]]
+url = "http://svdictionary.com"
+text = "Silicon Valley Dictionary"
+
+[[sections.links]]
+url = "http://hultbergs.org/defrag/"
+text = "Defragmenting Drive C"
+
+[[sections.links]]
+url = "https://www.thisiscolossal.com/2017/03/miniature-retro-papercraft-synthesizers-by-dan-mcpharlin/"
+text = "Miniature Retro Papercraft Synthesizers by Dan McPharlin"
+
+[[sections.links]]
+url = "https://forthebadge.com"
+text = "For the badge"
+
+
+
+[[sections]]
+name = "Games"
+
+[[sections.links]]
+url = "http://dmle.sourceforge.net"
+text = "Dungeon Master - Open Edition"
+
+
+
+[[sections]]
+name = "Git"
+
+[[sections.links]]
+url = "https://hub.github.com"
+text = "Hub is a command-line wrapper for git that makes you better at GitHub"
+
+[[sections.links]]
+url = "http://pcottle.github.io/learnGitBranching/"
+text = "Learn Git branching"
+
+[[sections.links]]
+url = "http://git-man-page-generator.lokaltog.net"
+text = "Git man page generator"
+
+[[sections.links]]
+url = "http://whatthecommit.com"
+text = "WTC"
+
+[[sections.links]]
+url = "https://try.github.io"
+text = "Got 15 minutes and want to learn Git?"
+
+[[sections.links]]
+url = "http://git-scm.com/book"
+text = "The entire Pro Git book, written by Scott Chacon and Ben Straub"
+
+[[sections.links]]
+url = "http://gitready.com"
+text = "Learn git one commit at a time"
+
+[[sections.links]]
+url = "http://nvie.com/posts/a-successful-git-branching-model/"
+text = "A successful Git branching model"
+
+[[sections.links]]
+url = "http://www.youtube.com/watch?v=4XpnKHJAok8"
+text = "Tech Talk: Linus Torvalds on Git"
+
+[[sections.links]]
+url = "http://sethrobertson.github.io/GitBestPractices/"
+text = "Commit Often, Perfect Later, Publish Once: Git Best Practices"
+
+[[sections.links]]
+url = "http://documentup.com/skwp/git-workflows-book"
+text = "Git Workflows"
+
+[[sections.links]]
+url = "https://github.com/pluralsight/git-internals-pdf/releases"
+text = "PeepCode Git Internals"
+
+[[sections.links]]
+url = "https://www.sourcetreeapp.com"
+text = "A free Git & Mercurial client for Windows or Mac"
+
+[[sections.links]]
+url = "https://www.youtube.com/watch?v=U8GBXvdmHT4"
+text = "Webcast: The Basics of Git and GitHub"
+
+[[sections.links]]
+url = "https://zachholman.com/talk/how-github-uses-github-to-build-github/"
+text = "How GitHub Uses GitHub to Build GitHub"
+
+[[sections.links]]
+url = "https://jenkins.io/blog/2013/11/25/summary-report-git-repository-disruption-incident-of-nov-10th/"
+text = "Summary Report: Git Repository Disruption Incident of Nov 10th"
+
+[[sections.links]]
+url = "http://dymitruk.com/blog/2012/02/05/branch-per-feature/"
+text = "Branch-per-Feature"
+
+[[sections.links]]
+url = "http://xkcd.com/1597/"
+text = "Git on XKCD"
+
+[[sections.links]]
+url = "https://i.imgur.com/u7zqaod.jpg"
+text = "In case of fire"
+
+[[sections.links]]
+url = "http://fle.github.io/an-efficient-git-workflow-for-midlong-term-projects.html"
+text = "An efficient GIT workflow for mid/long term projects"
+
+[[sections.links]]
+url = "http://ohshitgit.com"
+text = "Oh shit, git!"
+
+[[sections.links]]
+url = "https://github.com/jesseduffield/lazygit"
+text = "Simple terminal UI for Git commands"
+
+[[sections.links]]
+url = "https://about.gitlab.com/2016/07/27/the-11-rules-of-gitlab-flow/"
+text = "The 11 Rules of GitLab Flow"
+
+[[sections.links]]
+url = "https://nishanttotla.com/scitech/signing-git-commits-gpg/"
+text = "Signing Git Commits with a GPG Key"
+
+
+
+[[sections]]
+name = "Go (game)"
+
+[[sections.links]]
+url = "https://online-go.com"
+text = "Online Go"
+
+
+
+[[sections]]
+name = "Graphics"
+
+[[sections.links]]
+url = "https://medium.com/@fogleman/voxel-rendering-techniques-fa8d869457ca"
+text = "Voxel Rendering Techniques"
+
+
+
+[[sections]]
+name = "Haskell"
+
+[[sections.links]]
+url = "http://stefan.saasen.me/articles/git-clone-in-haskell-from-the-bottom-up/"
+text = "Reimplementing 'git clone' in Haskell from the bottom up"
+
+[[sections.links]]
+url = "http://haskell.cs.yale.edu/wp-content/uploads/2011/02/history.pdf"
+text = "A History of Haskell: Being Lazy With Class"
+
+[[sections.links]]
+url = "https://codewords.recurse.com/issues/three/algebra-and-calculus-of-algebraic-data-types/"
+text = "The algebra (and calculus!) of algebraic data types"
+
+[[sections.links]]
+url = "http://www.gwern.net/Links"
+text = "Interesting links"
+
+[[sections.links]]
+url = "http://cheatsheet.codeslower.com"
+text = "The Haskell Cheatsheet"
+
+[[sections.links]]
+url = "http://haskellbook.com"
+text = "Haskell Programming from first principles"
+
+[[sections.links]]
+url = "https://gumroad.com/l/maybe-haskell/"
+text = "Programming Without Null"
+
+[[sections.links]]
+url = "http://www.happylearnhaskelltutorial.com/contents.html"
+text = "Happy Learn Haskell Tutorial"
+
+
+
+[[sections]]
+name = "Internet"
+
+[[sections.links]]
+url = "https://howdns.works"
+text = "A fun and colorful explanation of how DNS works"
+
+
+
+[[sections]]
+name = "JavaScript"
+
+[[sections.links]]
+url = "http://eloquentjavascript.net"
+text = "Eloquent JavaScript"
+
+[[sections.links]]
+url = "http://momentjs.com"
+text = "Parse, validate, manipulate, and display dates in JavaScript"
+
+[[sections.links]]
+url = "http://yehudakatz.com/2011/08/12/understanding-prototypes-in-javascript/"
+text = "Understanding \"Prototypes\" in JavaScript"
+
+[[sections.links]]
+url = "https://theintern.github.io"
+text = "Intern - Software testing for humans"
+
+[[sections.links]]
+url = "http://leafletjs.com"
+text = "Leaflet"
+
+[[sections.links]]
+url = "https://medium.com/@thomasfuchs/what-if-we-had-a-great-standard-library-in-javascript-52692342ee3f"
+text = "What if we had a great standard library in JavaScript?"
+
+[[sections.links]]
+url = "https://riccardoscalco.github.io/textures/"
+text = "Textures.js"
+
+[[sections.links]]
+url = "https://www.bryanbraun.com/anchorjs/"
+text = "AnchorJS"
+
+
+
+[[sections]]
+name = "Languages"
+
+[[sections.links]]
+url = "http://julialang.org"
+text = "Julia"
+
+[[sections.links]]
+url = "https://pine.fm/LearnToProgram/"
+text = "A place to start for the future ruby programmer"
+
+[[sections.links]]
+url = "https://www.dartlang.org"
+text = "Dart"
+
+[[sections.links]]
+url = "http://norvig.com/21-days.html"
+text = "Teach Yourself Programming in Ten Years"
+
+[[sections.links]]
+url = "http://debug.elm-lang.org/edit/Mario.elm"
+text = "Elm Debugger: Mario"
+
+[[sections.links]]
+url = "http://codekata.com"
+text = "CodeKata"
+
+[[sections.links]]
+url = "http://copy.sh/brainfuck/"
+text = "Le Brainfuck"
+
+[[sections.links]]
+url = "https://learnxinyminutes.com"
+text = "Learn X in Y minutes"
+
+[[sections.links]]
+url = "http://dangermouse.net/esoteric/"
+text = "DM's Esoteric Programming Languages"
+
+[[sections.links]]
+url = "http://hyperpolyglot.org"
+text = "Hyperpolyglot"
+
+[[sections.links]]
+url = "http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+text = "C++ Core Guidelines"
+
+
+
+[[sections]]
+name = "Linux"
+
+[[sections.links]]
+url = "http://bellard.org/jslinux/"
+text = "JavaScript terminal emulator"
+
+[[sections.links]]
+url = "https://www.digitalocean.com/community/tutorials/how-to-use-arch-linux-package-management"
+text = "How To Use Arch Linux Package Management"
+
+[[sections.links]]
+url = "https://wiki.archlinux.org/index.php/Pacman/Tips_and_tricks"
+text = "Pacman tips and tricks"
+
+[[sections.links]]
+url = "https://linuxjourney.com"
+text = "Learn the ways of Linux-fu, for free"
+
+
+
+[[sections]]
+name = "Machine learning"
+
+[[sections.links]]
+url = "http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf"
+text = "Best Practices for ML Engineering"
+
+
+
+[[sections]]
+name = "Music"
+
+[[sections.links]]
+url = "http://www.littlerecords.net"
+text = "Little Records"
+
+[[sections.links]]
+url = "https://en.wikipedia.org/wiki/Nurse_with_Wound_list"
+text = "Nurse with Wound list"
+
+
+
+[[sections]]
+name = "Open science"
+
+[[sections.links]]
+url = "http://sciencecodemanifesto.org"
+text = "Science Code Manifesto"
+
+[[sections.links]]
+url = "http://software-carpentry.org/blog/2014/02/open-scoop-challenge.html"
+text = "The Open Scoop Challenge"
+
+[[sections.links]]
+url = "https://opensource.com/business/10/8/barriers-open-science-big-business-watson-and-crick"
+text = "Barriers to open science"
+
+[[sections.links]]
+url = "http://www.sciencemag.org/careers/2010/04/scientists-embrace-openness"
+text = "Scientists Embrace Openness"
+
+[[sections.links]]
+url = "http://third-bit.com/2014/10/27/shuttleworth.html"
+text = "Shuttleworth Foundation Fellowship Application"
+
+[[sections.links]]
+url = "http://jakevdp.github.io/blog/2013/10/26/big-data-brain-drain/"
+text = "The Big Data Brain Drain: Why Science is in Trouble"
+
+[[sections.links]]
+url = "https://danielskatzblog.wordpress.com/"
+text = "Daniel S. Katz's blog"
+
+[[sections.links]]
+url = "http://depsy.org"
+text = "Depsy"
+
+
+
+[[sections]]
+name = "Open source"
+
+[[sections.links]]
+url = "http://tom.preston-werner.com/2011/11/22/open-source-everything.html"
+text = "Open Source (Almost) Everything"
+
+[[sections.links]]
+url = "http://aosabook.org"
+text = "The Architecture of Open Source Applications"
+
+[[sections.links]]
+url = "http://opensoul.org/99ways/"
+text = "99 ways to ruin an open source project"
+
+[[sections.links]]
+url = "http://www.oreilly.com/openbook/osfreesoft/"
+text = "Understanding Open Source and Free Software Licensing"
+
+[[sections.links]]
+url = "https://tldrlegal.com"
+text = "Software Licenses in Plain English"
+
+[[sections.links]]
+url = "http://twitter.github.io"
+text = "Twitter open source libraries"
+
+[[sections.links]]
+url = "http://linkedin.github.io"
+text = "LinkedIn open source libraries"
+
+
+
+[[sections]]
+name = "Paragliding"
+
+[[sections.links]]
+url = "https://www.youtube.com/watch?v=9R94fKulraI"
+text = "Olivier Fritz Ground Kiting Annecy"
+
+[[sections.links]]
+url = "https://para-test.com/reports"
+text = "Reports - Air Turquoise"
+
+[[sections.links]]
+url = "https://relet.github.io/pg-xc/viewer.html"
+text = "Norway airspace map"
+
+[[sections.links]]
+url = "http://vindsiden.no"
+text = "Wind meters used by the kiting community"
+
+[[sections.links]]
+url = "https://holfuy.com/en/map/wind&la=69.68597&lo=19.29413&z=8.7"
+text = "Wind meters around Tromso"
+
+[[sections.links]]
+url = "https://thredds.met.no/thredds/catalog/remotesensingradiosonde/catalog.html"
+text = "Sounding data for Norway"
+
+[[sections.links]]
+url = "https://vindnå.no"
+text = "Vind nå - vindstyrke - kiting, paragliding, seiling."
+
+
+
+[[sections]]
+name = "People"
+
+[[sections.links]]
+url = "http://people.sc.fsu.edu/~jburkardt/"
+text = "John Burkardt"
+
+[[sections.links]]
+url = "https://maryrosecook.com"
+text = "Mary Rose Cook"
+
+[[sections.links]]
+url = "http://hintjens.com"
+text = "Pieter Hintjens"
+
+[[sections.links]]
+url = "http://blog.reverberate.org"
+text = "Josh Haberman"
+
+
+
+[[sections]]
+name = "Photography"
+
+[[sections.links]]
+url = "http://edelmangallery.com/exhibitions-and-projects/exhibition-pages/2014/sandro-miller-malkovich,-malkovich,-malkovich-homage-to-photographic-masters.html"
+text = "Malkovich, Malkovich, Malkovich"
+
+[[sections.links]]
+url = "https://www.flickr.com/photos/projectapolloarchive/albums/"
+text = "Project Apollo Archive"
+
+[[sections.links]]
+url = "http://www.jennifergreenburg.com/revisinghistory/"
+text = "Jennifer Greenburg"
+
+[[sections.links]]
+url = "https://www.instagram.com/miserable_men/"
+text = "Men that went shopping"
+
+[[sections.links]]
+url = "http://photography-mapped.com/index.html"
+text = "Photography mapped"
+
+
+
+[[sections]]
+name = "Numerical precision"
+
+[[sections.links]]
+url = "https://floating-point-gui.de"
+text = "The floating point guide"
+
+
+
+[[sections]]
+name = "Python"
+
+[[sections.links]]
+url = "https://docs.python-guide.org"
+text = "The Hitchhiker's Guide to Python"
+
+[[sections.links]]
+url = "https://www.youtube.com/watch?v=OSGv2VnC0go"
+text = "Transforming Code into Beautiful, Idiomatic Python"
+
+[[sections.links]]
+url = "https://benkurtovic.com/2014/06/01/obfuscating-hello-world.html"
+text = "Obfuscating Hello World in Python"
+
+[[sections.links]]
+url = "http://flask.pocoo.org"
+text = "Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions"
+
+[[sections.links]]
+url = "http://www.obeythetestinggoat.com"
+text = "Obey the Testing Goat!"
+
+[[sections.links]]
+url = "http://pythonmentors.com"
+text = "Python Mentors - Python Core Mentorship"
+
+[[sections.links]]
+url = "https://emptysqua.re/blog/plop-python-profiler-with-call-graphs/"
+text = "Plop: Python Profiler With Call Graphs"
+
+[[sections.links]]
+url = "http://hplgit.github.io/prog4comp/doc/pub/p4c_Python.pdf"
+text = "Programming for Computations - A Gentle Introduction to Numerical Simulations with Python"
+
+[[sections.links]]
+url = "http://engineeringblog.yelp.com/2015/02/assert_called_once-threat-or-menace.html"
+text = "assert_called_once: Threat or Menace"
+
+[[sections.links]]
+url = "https://julien.danjou.info/blog/2013/guide-python-static-class-abstract-methods"
+text = "The definitive guide on how to use static, class or abstract methods in Python"
+
+[[sections.links]]
+url = "https://medium.com/technology-invention-and-more/how-to-build-a-simple-neural-network-in-9-lines-of-python-code-cc8f23647ca1"
+text = "How to build a simple neural network in 9 lines of Python code"
+
+[[sections.links]]
+url = "http://lignos.org/py_antipatterns/"
+text = "Anti-Patterns in Python Programming"
+
+[[sections.links]]
+url = "http://veekaybee.github.io/2017/09/26/python-packaging/"
+text = "Alice in Python projectland"
+
+[[sections.links]]
+url = "https://caremad.io/posts/2016/05/powering-pypi/"
+text = "Powering the Python Package Index"
+
+[[sections.links]]
+url = "https://pyformat.info"
+text = "String formatting in Python"
+
+[[sections.links]]
+url = "https://developers.google.com/edu/python/"
+text = "Google's Python Class"
+
+[[sections.links]]
+url = "http://www.southampton.ac.uk/~fangohr/training/python/pdfs/Python-for-Computational-Science-and-Engineering.pdf"
+text = "Python for Computational Science and Engineering"
+
+[[sections.links]]
+url = "https://nedbatchelder.com/text/names.html"
+text = "Facts and myths about Python names and values"
+
+
+
+[[sections]]
+name = "Research software"
+
+[[sections.links]]
+url = "https://www.economist.com/science-and-technology/2016/03/23/of-more-than-academic-interest"
+text = "Of more than academic interest"
+
+[[sections.links]]
+url = "http://oicr-gsi.github.io/robust-paper/"
+text = "Ten Simple Rules for Making Research Software More Robust"
+
+[[sections.links]]
+url = "https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/"
+text = "Good Enough Practices for Scientific Computing"
+
+[[sections.links]]
+url = "https://esipfed.github.io/Software-Assessment-Guidelines/"
+text = "ESIP Software Guidelines"
+
+
+
+[[sections]]
+name = "Scientific review"
+
+[[sections.links]]
+url = "http://www.bcl.hamilton.ie/~barak/how-to-review.html"
+text = "How to Review a Scientific Paper"
+
+
+
+[[sections]]
+name = "Security"
+
+[[sections.links]]
+url = "http://www.genaud.net/2013/11/password-cracking/password-cracking-v0.html"
+text = "Brute force password cracking"
+
+
+
+[[sections]]
+name = "Unsorted"
+
+[[sections.links]]
+url = "http://www.8bitphilosophy.com"
+text = "8-Bit Philosophy"
+
+[[sections.links]]
+url = "http://www.mcsweeneys.net/articles/kafkas-joke-book"
+text = "Kafka's joke book"
+
+[[sections.links]]
+url = "http://www.scs.stanford.edu/~dm/home/papers/remove.pdf"
+text = "Get me off Your Fucking Mailing List"
+
+[[sections.links]]
+url = "http://www.catb.org/esr/faqs/smart-questions.html"
+text = "How To Ask Questions The Smart Way"
+
+[[sections.links]]
+url = "https://easyengine.io/tutorials/php/increase-script-execution-time/"
+text = "Increase PHP script execution time with Nginx"
+
+[[sections.links]]
+url = "http://www.space-invaders.com"
+text = "Invader"
+
+[[sections.links]]
+url = "http://www.theverge.com/2015/10/25/9457247/the-simpsons-al-jean-interview"
+text = "How an episode of The Simpsons is made"
+
+[[sections.links]]
+url = "http://hintjens.com/blog:107"
+text = "Ten Steps to Better Public Speaking"
+
+[[sections.links]]
+url = "http://hintjens.com/blog:100"
+text = "Amdahl to Zipf: Ten Laws of the Physics of People"
+
+[[sections.links]]
+url = "https://typesetinthefuture.com"
+text = "Typeset In The Future"
+
+[[sections.links]]
+url = "https://www.instagram.com/thisbrutalhouse/"
+text = "This Brutal House"
+
+[[sections.links]]
+url = "https://media.pragprog.com/articles/mar_02_archeology.pdf"
+text = "Software Archaeology"
+
+[[sections.links]]
+url = "https://www.fordfoundation.org/about/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/"
+text = "Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure"
+
+[[sections.links]]
+url = "http://moralmachine.mit.edu"
+text = "The Moral Machine"
+
+[[sections.links]]
+url = "https://nakamotoinstitute.org/shelling-out/"
+text = "Shelling Out: The Origins of Money"
+
+[[sections.links]]
+url = "https://make8bitart.com"
+text = "Make 8-bit art!"
+
+
+
+[[sections]]
+name = "Versioning"
+
+[[sections.links]]
+url = "http://semver.org"
+text = "Semantic Versioning"
+
+[[sections.links]]
+url = "http://sentimentalversioning.org"
+text = "Sentimental Versioning"
+
+[[sections.links]]
+url = "http://faq.sealedabstract.com/why_not_semver/"
+text = "Why not semver"
+
+[[sections.links]]
+url = "https://gist.github.com/jashkenas/cbd2b088e20279ae2c8e"
+text = "Why Semantic Versioning Isn't"
+
+[[sections.links]]
+url = "http://blog.hypesystem.dk/on-versioning"
+text = "On Versioning"
+
+[[sections.links]]
+url = "http://keepachangelog.com"
+text = "Keep a CHANGELOG"
+
+
+
+[[sections]]
+name = "Visualization"
+
+[[sections.links]]
+url = "https://earth.nullschool.net"
+text = "Earth: a global map of wind, weather, and ocean conditions"
+
+
+
+[[sections]]
+name = "Web development"
+
+[[sections.links]]
+url = "http://www.mintemail.com"
+text = "Disposable emails"
+
+[[sections.links]]
+url = "https://www.mailinator.com"
+text = "Public email inboxes"
+
+[[sections.links]]
+url = "https://dribbble.com"
+text = "Dribble"
+
+[[sections.links]]
+url = "https://www.filestack.com"
+text = "Filestack"
+
+[[sections.links]]
+url = "https://jaspervdj.be/hakyll/"
+text = "Hakyll"
+
+[[sections.links]]
+url = "http://fabianburghardt.de/webolution/"
+text = "Evolution of Webdesign"
+
+[[sections.links]]
+url = "https://www.csstutorial.net"
+text = "CSS Tutorial"
+
+[[sections.links]]
+url = "https://marksheet.io"
+text = "HTML and CSS tutorial"

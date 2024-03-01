@@ -1,0 +1,367 @@
+[[publications]]
+authors = "R. Bast, P. Schwerdtfeger"
+title = "The accuracy of density functionals for electric field gradients. Test calculations for ScX, CuX and GaX (X=F, Cl, Br, I, H and Li)"
+journal = "J. Chem. Phys."
+volume = 119
+page = 5988
+year = 2003
+doi = "10.1063/1.1597674"
+
+[[publications]]
+authors = "R. Bast, P. Schwerdtfeger"
+title = "Parity-violation effects in the C-F stretching mode of heavy-atom methyl fluorides"
+journal = "Phys. Rev. Lett."
+volume = 91
+page = 9729
+year = 2003
+doi = "10.1103/PhysRevLett.91.023001"
+
+[[publications]]
+authors = "P. Schwerdtfeger, R. Bast"
+title = "Large parity violation effects in the vibrational spectrum of organometallic compounds"
+journal = "J. Am. Chem. Soc."
+volume = 126
+page = 1652
+year = 2004
+doi = "10.1021/ja038383z"
+
+[[publications]]
+authors = "P. Schwerdtfeger, A. Kuhn, R. Bast, J. K. Laerdahl, F. Faglioni, P. Lazzeretti"
+title = "The vibrational spectrum of camphor from ab initio and density functional theory and parity violation in the C-C-CO bending mode"
+journal = "Chem. Phys. Lett."
+volume = 383
+page = 496
+year = 2004
+doi = "10.1016/j.cplett.2003.11.035"
+
+[[publications]]
+authors = "P. Schwerdtfeger, R. Bast, M. C. L. Gerry, C. R. Jacob, M. Jansen, V. Kello, A. V. Mudring, A. J. Sadlej, T. Saue, T. Sohnel, F. E. Wagner"
+title = "The quadrupole moment of the 3/2(+) nuclear ground state of Au-197 from electric field gradient relativistic coupled cluster and density-functional theory of small molecules and the solid state"
+journal = "J. Chem. Phys."
+volume = 122
+page = 124317
+year = 2005
+doi = "10.1063/1.1869975"
+
+[[publications]]
+authors = "R. Bast, P. Schwerdtfeger, T. Saue"
+title = "Parity nonconservation contribution to the nuclear magnetic resonance shielding constants of chiral molecules: A four-component relativistic study"
+journal = "J. Chem. Phys."
+volume = 125
+page = 26948
+year = 2006
+doi = "10.1063/1.2218333"
+
+[[publications]]
+authors = "V. Weijo, R. Bast, P. Manninen, T. Saue, J. Vaara"
+title = "Methodological aspects in the calculation of parity-violating effects in nuclear magnetic resonance parameters"
+journal = "J. Chem. Phys."
+volume = 125
+page = 30791
+year = 2007
+doi = "10.1063/1.2436886"
+
+[[publications]]
+authors = "R. Bast, A. Hesselmann, P. Salek, T. Helgaker, T. Saue"
+title = "Static and frequency-dependent dipole-dipole polarizabilities of all closed-shell atoms up to radium: A four-component relativistic DFT study"
+journal = "Chem. Phys. Chem."
+volume = 9
+page = 445
+year = 2008
+doi = "10.1002/cphc.200700504"
+
+[[publications]]
+authors = "R. Bast, H. J. Aa. Jensen, T. Saue"
+title = "Relativistic Adiabatic Time-Dependent Density Functional Theory Using Hybrid Functionals and Noncollinear Spin Magnetization"
+journal = "Int. J. Quantum Chem."
+volume = 109
+page = 2091
+year = 2009
+doi = "10.1002/qua.22065"
+
+[[publications]]
+authors = "R. Bast, J. Juselius, T. Saue"
+title = "4-Component relativistic calculation of the magnetically induced current density in the group 15 heteroaromatic compounds"
+journal = "Chem. Phys."
+volume = 356
+page = 187
+year = 2009
+doi = "10.1016/j.chemphys.2008.10.040"
+
+[[publications]]
+authors = "R. Bast, A. J. Thorvaldsen, M. Ringholm, K. Ruud"
+title = "Atomic orbital-based cubic response theory for one-, two-, and four-component relativistic self-consistent field models"
+journal = "Chem. Phys."
+volume = 356
+page = 177
+year = 2009
+doi = "10.1016/j.chemphys.2008.10.033"
+
+[[publications]]
+authors = "R. Bast, T. Saue, J. Henriksson, P. Norman"
+title = "Role of noncollinear magnetization for the first-order electric-dipole hyperpolarizability at the four-component Kohn-Sham density functional theory level"
+journal = "J. Chem. Phys."
+volume = 130
+page = "024109"
+year = 2009
+doi = "10.1063/1.3054302"
+
+[[publications]]
+authors = "B. Darquié, C. Stoeffler, A. Shelkovnikov, C. Daussy, A. Amy-Klein, C. Chardonnet, S. Zrig, L. Guy, J. Crassous, P. Soulard, P. Asselin, T. R. Huet, P. Schwerdtfeger, R. Bast, T. Saue"
+title = "Progress Toward the First Observation of Parity Violation in Chiral Molecules by High-Resolution Laser Spectroscopy"
+journal = "Chirality"
+volume = 22
+page = 870
+year = 2010
+doi = "10.1002/chir.20911"
+
+[[publications]]
+authors = "F. De Montigny, R. Bast, A. S. P. Gomes, G. Pilet, N. Vanthuyne, C. Roussel, L. Guy, P. Schwerdtfeger, T. Saue, J. Crassous"
+title = "Chiral oxorhenium(v) complexes as candidates for the experimental observation of molecular parity violation: a structural, synthetic and theoretical study"
+journal = "Phys. Chem. Chem. Phys."
+volume = 12
+page = 8792
+year = 2010
+doi = "10.1039/b925050f"
+
+[[publications]]
+authors = "R. Orlando, V. Lacivita, R. Bast, K. Ruud"
+title = "Calculation of the first static hyperpolarizability tensor of three-dimensional periodic compounds with a local basis set: A comparison of LDA, PBE, PBE0, B3LYP, and HF results"
+journal = "J. Chem. Phys."
+volume = 132
+page = 244106
+year = 2010
+doi = "10.1063/1.3447387"
+
+[[publications]]
+authors = "U. Ekström, L. Visscher, R. Bast, A. J. Thorvaldsen, K. Ruud"
+title = "Arbitrary-Order Density Functional Response Theory from Automatic Differentiation"
+journal = "J. Chem. Theory Comput."
+volume = 6
+page = 1971
+year = 2010
+doi = "10.1021/ct100117s"
+
+[[publications]]
+authors = "D. Sulzer, M. Olejniczak, R. Bast, T. Saue"
+title = "4-component relativistic magnetically induced current density using London atomic orbitals"
+journal = "Phys. Chem. Chem. Phys."
+volume = 13
+page = 20682
+year = 2011
+doi = "10.1039/C1CP22457C"
+
+[[publications]]
+authors = "R. Ramírez-Tagle, L. Alvarado-Soto, R. Arratia-Perez, R. Bast, L. Alvarez-Thon"
+title = "Probing the aromaticity of the [(HtAc)3(mu2-H)6], [(HtTh)3(mu2-H)6],+, and [(HtPa)3(mu2-H)6] clusters"
+journal = "J. Chem. Phys."
+volume = 135
+page = 104506
+year = 2011
+doi = "10.1063/1.3632056"
+
+[[publications]]
+authors = "R. Bast, A. Koers, A. S. P. Gomes, M. Iliaš, P. Schwerdtfeger, T. Saue"
+title = "Analysis of parity violation in chiral molecules"
+journal = "Phys. Chem. Chem. Phys."
+volume = 13
+page = 864
+year = 2011
+doi = "10.1039/C0CP01483D"
+
+[[publications]]
+authors = "R. Bast, U. Ekström, B. Gao, T. Helgaker, K. Ruud, A. J. Thorvaldsen"
+title = "The ab initio calculation of molecular electric, magnetic and geometric properties"
+journal = "Phys. Chem. Chem. Phys."
+volume = 13
+page = 2627
+year = 2011
+doi = "10.1039/C0CP01647K"
+
+[[publications]]
+authors = "R. Bast, K. Ruud, A. Rizzo, T. Helgaker"
+title = "Relativistic four-component calculations of electric field gradient induced birefringence using London atomic orbitals"
+journal = "Theor. Chem. Acc."
+volume = 129
+page = 685
+year = 2011
+doi = "10.1007/s00214-011-0939-3"
+
+[[publications]]
+authors = "R. Orlando, R. Bast, K. Ruud, U. Ekström, M. Ferrabone, B. Kirtman"
+title = "The First and Second Static Electronic Hyperpolarizabilities of Zigzag Boron Nitride Nanotubes. An ab Initio Approach through the Coupled Perturbed Kohn-Sham Scheme"
+journal = "J. Phys. Chem. A"
+volume = 115
+page = 12631
+year = 2011
+doi = "10.1021/jp203237m"
+
+[[publications]]
+authors = "P. Tecmer, R. Bast, K. Ruud, L. Visscher"
+title = "Charge-Transfer Excitations in Uranyl Tetrachloride ([UO2Cl4](2-)): How Reliable are Electronic Spectra from Relativistic Time-Dependent Density Functional Theory?"
+journal = "J. Phys Chem. A"
+volume = 116
+page = 7397
+year = 2012
+doi = "10.1021/jp3011266"
+
+[[publications]]
+authors = "A. Biebricher, O. Havnes, R. Bast"
+title = "On the necessary complexity of modeling of the Polar Mesosphere Summer Echo Overshoot Effect"
+journal = "J. Plasma Phys."
+volume = 78
+page = 225
+year = 2012
+doi = "10.1017/S0022377811000596"
+
+[[publications]]
+authors = "M. Olejniczak, R. Bast, T. Saue, M. Pecul"
+title = "A simple scheme for magnetic balance in four-component relativistic Kohn-Sham calculations of nuclear magnetic resonance shielding constants in a Gaussian basis"
+journal = "J. Chem. Phys."
+volume = 136
+page = "014108"
+year = 2012
+doi = "10.1063/1.3671390"
+
+[[publications]]
+authors = "Z. Badri, S. Pathak, H. Fliegl, P. Rashidi-Ranjbar, R. Bast, R. Marek, G. Foroutan-Nejad, K. Ruud"
+title = "All-Metal Aromaticity: Revisiting the Ring Current Model among Transition Metal Clusters"
+journal = "J. Chem. Theory Comput."
+volume = 9
+page = 4789
+year = 2013
+doi = "10.1021/ct4007184"
+
+[[publications]]
+authors = "M. Ilias, H. J. Aa. Jensen, R. Bast, T. Saue"
+title = "Gauge origin independent calculations of molecular magnetisabilities in relativistic four-component theory"
+journal = "Mol. Phys."
+volume = 111
+page = 1373
+year = 2013
+doi = "10.1080/00268976.2013.798436"
+
+[[publications]]
+authors = "S. Pathak, R. Bast, K. Ruud"
+title = "Multiconfigurational Self-Consistent Field Calculations of the Magnetically Induced Current Density Using Gauge-Including Atomic Orbitals"
+journal = "J. Chem. Theory Comput."
+volume = 9
+page = 2189
+year = 2013
+doi = "10.1021/ct3011198"
+
+[[publications]]
+authors = "N. Saleh, S. Zrig, T. Roisnel, L. Guy, R. Bast, T. Saue, B. Darquie, J. Crassous"
+title = "A chiral rhenium complex with predicted high parity violation effects: synthesis, stereochemical characterization by VCD spectroscopy and quantum chemical calculations"
+journal = "Phys. Chem. Chem. Phys."
+volume = 15
+page = 10952
+year = 2013
+doi = "10.1039/c3cp50199j"
+
+[[publications]]
+authors = "M. Ringholm, R. Bast, L. Oggioni, U. Ekström, K. Ruud"
+title = "Analytic calculations of hyper-Raman spectra from density functional theory hyperpolarizability gradients"
+journal = "J. Chem. Phys."
+volume = 141
+page = 134107
+year = 2014
+doi = "10.1063/1.4896606"
+
+[[publications]]
+authors = "K. Aidas, C. Angeli, K. L. Bak, V. Bakken, R. Bast, L. Boman, O. Christiansen, R. Cimiraglia, S. Coriani, P. Dahle, E. K. Dalskov, U. Ekström, T. Enevoldsen, J. J. Eriksen, P. Ettenhuber, B. Fernández, L. Ferrighi, H. Fliegl, L. Frediani, K. Hald, A. Halkier, C. Hättig, H. Heiberg, T. Helgaker, A. C. Hennum, H. Hettema, E. Hjertenæs, S. Høst, I.-M. Høyvik, M. F. Iozzi, B. Jansik, H. J. Aa. Jensen, D. Jonsson, P. Jørgensen, J. Kauczor, S. Kirpekar, T. Kjærgaard, W. Klopper, S. Knecht, R. Kobayashi, H. Koch, J. Kongsted, A. Krapp, K. Kristensen, A. Ligabue, O. B. Lutnæs, J. I. Melo, K. V. Mikkelsen, R. H. Myhre, C. Neiss, C. B. Nielsen, P. Norman, J. Olsen, J. M. H. Olsen, A. Osted, M. J. Packer, F. Pawlowski, T. B. Pedersen, P. F. Provasi, S. Reine, Z. Rinkevicius, T. A. Ruden, K. Ruud, V. Rybkin, P. Salek, C. C. M. Samson, A. Sánchez de Merás, T. Saue, S. P. A. Sauer, B. Schimmelpfennig, K. Sneskov, A. H. Steindal, K. O. Sylvester-Hvid, P. R. Taylor, A. M. Teale, E. I. Tellgren, D. P. Tew, A. J. Thorvaldsen, L. Thøgersen, O. Vahtras, M. A. Watson, D. J. D. Wilson, M. Ziolkowski, and H. Ågren"
+title = "The Dalton quantum chemistry program system"
+journal = "WIREs Comput. Mol. Sci."
+volume = 4
+page = 269
+year = 2014
+doi = "10.1002/wcms.1172"
+
+[[publications]]
+authors = "B. Gao, M. Ringholm, R. Bast, K. Ruud, A. J. Thorvaldsen, M. Jaszunski"
+title = "Analytic Density Functional Theory Calculations of Pure Vibrational Hyperpolarizabilities: The First Dipole Hyperpolarizability of Retinal and Related Molecules"
+journal = "J. Phys. Chem. A"
+volume = 118
+page = 748
+year = 2014
+doi = "10.1021/jp408103y"
+correction = "10.1021/jp5026653"
+
+[[publications]]
+authors = "M. Ringholm, D. Jonsson, R. Bast, B. Gao, A. J. Thorvaldsen, U. Ekstrom, T. Helgaker, K. Ruud"
+title = "Analytic cubic and quartic force fields using density-functional theory"
+journal = "J. Chem. Phys."
+volume = 140
+page = 14403
+year = 2014
+doi = "10.1063/1.4861003"
+
+[[publications]]
+authors = "R. Di Remigio, R. Bast, L. Frediani, T. Saue"
+title = "4-Component Relativistic Calculations in Solution with the Polarizable Continuum Model of Solvation:\nTheory, Implementation and Application to the Group 16 Dihydrides H2X (X = O, S, Se, Te, Po)\n"
+journal = "J. Phys. Chem. A"
+volume = 119
+page = 5061
+year = 2015
+doi = "10.1021/jp507279y"
+
+[[publications]]
+authors = "D. H. Friese, R. Bast, K. Ruud"
+title = "Five-Photon Absorption and Selective Enhancement of Multiphoton Absorption Processes"
+journal = "ACS Photonics"
+volume = 2
+page = 572
+year = 2015
+doi = "10.1021/acsphotonics.5b00053"
+
+[[publications]]
+authors = "M. Repisky, S. Komorovsky, R. Bast, K. Ruud"
+title = "Relativistic Calculations of Nuclear Magnetic Resonance Parameters\n"
+journal = "Chapter in book: Gas Phase NMR, Royal Society of Chemistry"
+year = 2016
+doi = "10.1039/9781782623816-00267"
+
+[[publications]]
+authors = "E. D. Hedegård, R. Bast, J. Kongsted, J. M. H. Olsen, H. J. Aa. Jensen"
+title = "Relativistic Polarizable Embedding\n"
+journal = "J. Chem. Theory Comput."
+volume = "13 (6)"
+page = 2870
+year = 2017
+doi = "10.1021/acs.jctc.7b00162"
+
+[[publications]]
+authors = "M. Olejniczak, R. Bast, A. S. P. Gomes"
+title = "On the calculation of second-order magnetic properties\nusing subsystem approaches in a relativistic framework\n"
+journal = "Phys. Chem. Chem. Phys."
+volume = "19 (12)"
+page = 8400
+year = 2017
+doi = "10.1039/c6cp08561j"
+
+[[publications]]
+authors = "J. Carroll, F. B. Vikebø, D. Howell, O. J. Broch, R. Nepstad, S. Augustine, G. M. Skeie, R. Bast, J. Juselius"
+title = "Assessing impacts of simulated oil spills on the Northeast Arctic cod fishery\n"
+journal = "Mar. Pollut. Bull."
+volume = 126
+page = 63
+year = 2018
+doi = "10.1016/j.marpolbul.2017.10.069"
+
+[[publications]]
+authors = "C. A. Barboza, R. Bast, E. Barboza, D. MacLeod-Carey, R. Arratia-Perez"
+title = "Magnetically induced current density using London atomic orbitals of dihydroindeno-[1,2-b]-fluorenes\n"
+journal = "New J. Chem."
+volume = "42 (19)"
+page = 15648
+year = 2018
+doi = "10.1039/C8NJ02301H"
+
+[[publications]]
+authors = "N. Saleh, R. Bast, N. Vanthuyne, C. Roussel, T. Saue, B. Darquie, J. Crassous"
+title = "An oxorhenium complex bearing a chiral cyclohexane-1-olato-2-thiolato ligand:\nSynthesis, stereochemistry, and theoretical study of parity violation vibrational frequency shifts\n"
+journal = "Chirality"
+volume = "30 (2)"
+page = 147
+year = 2018
+doi = "10.1002/chir.22785"

@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/ico/favicon.ico">
+
+    <title>Radovan Bast | Home Sweet Home</title>
+
+    
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="https://bast.fr/img/avatar.jpg" />
+    
+
+    
+      <meta name="description" content="" />
+      <meta name="twitter:description" content="" />
+    
+
+    
+      <meta name="twitter:title" content="Holy Rust modules, Batman! - How I structure Rust projects" />
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" integrity="sha256-UXesixbeLkB/UYxVTzuj/gg3+LMzgwAmg3zD+C4ZASQ=" crossorigin="anonymous">
+
+    <link href="/css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="ui container bottom-buffer">
+      <div class="ui secondary pointing stackable menu">
+        <div class="right menu">
+          
+            <a class="item" href="/" id="fonts">Home</a>
+          
+            <a class="item" href="/about/" id="fonts">About</a>
+          
+            <a class="item" href="/projects/" id="fonts">Projects</a>
+          
+            <a class="item" href="/publications/" id="fonts">Publications</a>
+          
+            <a class="item" href="/blog/" id="fonts">Blog</a>
+          
+            <a class="item" href="/bookmarks/" id="fonts">Bookmarks</a>
+          
+        </div>
+      </div>
+
+      <div class="top-buffer">
+        
+
+
+        
+  <div class="post">
+    <h1 class="ui orange header">Holy Rust modules, Batman! - How I structure Rust projects</h1>
+    October 03, 2020
+
+    <div class="top-buffer">
+      <p><img src="/blog/batman.jpg" alt="Batman thinking" /></p>
+<h2 id="modules-and-directory-structure-in-a-rust-project">Modules and directory structure in a Rust project</h2>
+<p>First a disclaimer: I called this post &quot;How I structure Rust projects&quot; and not
+&quot;How <strong>to</strong> structure Rust projects&quot; since I am still a Rust novice and there
+is likely a better and more canonical way. And although I really enjoy the
+language and <a href="https://doc.rust-lang.org/book/">The Rust Programming Language</a>
+book, the part with structuring the module tree and directory structure was not
+very clear to me when I started. I was unsure about how to arrange my files and
+modules and after some trial and error arrived at what I am using right now in
+my projects and what I will present here. Hopefully it will be useful for
+others. Please review this critically and send improvements!</p>
+<h2 id="example-a-simple-project-called-gotham">Example: A simple project called &quot;gotham&quot;</h2>
+<p>To have a tangible but hopefully simple example, we will discuss a fantasy
+project called <code>gotham</code>. The project has the following folder structure:</p>
+<pre><code>gotham
+ ├── Cargo.lock
+ ├── Cargo.toml
+ ├── README.md
+ ├── src
+ │    ├── batman.rs
+ │    ├── joker.rs
+ │    ├── lib.rs
+ │    ├── main.rs
+ │    ├── riddler.rs
+ │    └── robin.rs
+ └── tests
+      └── integration_test.rs
+</code></pre>
+<p>All the sources are under <code>src</code>, and the integration tests are under <code>tests</code>.
+You can find the full example here: <a href="https://github.com/bast/gotham">https://github.com/bast/gotham</a>.</p>
+<p>First let's see what the project can do and then we will discuss how the
+modules are arranged and how the imports work.  The project contains a main
+function and 3 library functions.  We can run the main code:</p>
+<pre><code>$ cargo run
+    Finished dev [unoptimized + debuginfo] target(s) in 0.02s
+     Running `target&#x2F;debug&#x2F;gotham`
+
+Na na na na na na na na Batman!
+Batman says: Robin, you haven&#x27;t fastened your safety bat-belt.
+Riddler says: Riddle me this, Batman: what are the chilliest 12 inches in the world?
+</code></pre>
+<p>And let us also test the 3 available library functions (<code>batman_quote</code>,
+<code>robin_exclamation</code>, and <code>joker_warning</code>):</p>
+<pre data-lang="rust" class="language-rust "><code class="language-rust" data-lang="rust">println!(&quot;{}&quot;, gotham::batman_quote());
+&#x2F;&#x2F; Robin, you haven&#x27;t fastened your safety bat-belt.
+
+println!(&quot;{}&quot;, gotham::robin_exclamation());
+&#x2F;&#x2F; Holy Bat Logic!
+
+println!(&quot;{}&quot;, gotham::joker_warning());
+&#x2F;&#x2F; And now people of Gotham City, the moment you have all been waiting for.
+</code></pre>
+<h2 id="arranging-the-library-crate">Arranging the library crate</h2>
+<p>The library functions are distributed over a couple of files: <code>batman.rs</code>,
+<code>joker.rs</code>, <code>riddler.rs</code>, and <code>robin.rs</code>. In this simplified example these
+files are short but in a real project we can imagine that each of these files
+will collect a number of related functions.</p>
+<p>First let us discuss <code>src/lib.rs</code> which describes the library crate. This file
+lists all the files/modules, as well as all 3 public library functions
+explicitly.</p>
+<p><strong>src/lib.rs</strong>:</p>
+<pre data-lang="rust" class="language-rust "><code class="language-rust" data-lang="rust">&#x2F;&#x2F; list here all files&#x2F;modules
+mod batman;
+mod joker;
+mod riddler;
+mod robin;
+
+&#x2F;&#x2F; list here all functions that form the
+&#x2F;&#x2F; interface of the library
+pub use crate::batman::batman_quote;
+pub use crate::joker::joker_warning;
+pub use crate::robin::robin_exclamation;
+</code></pre>
+<p>We will be able to call <code>batman_quote</code>, <code>joker_warning</code>, and
+<code>robin_exclamation</code> from outside the library. But we will not be able to call
+any other function defined in any of the source files. For instance, none
+of the functions in <code>riddler.rs</code> are exported outside the library.</p>
+<h2 id="relative-imports">Relative imports</h2>
+<p>Let us first have a closer look at the source code belonging to the dynamic duo
+(Batman and Robin) and two villains (Joker and Riddler) and then we will point
+out few interesting things about the visibility of functions.</p>
+<p><strong>src/batman.rs</strong>:</p>
+<pre data-lang="rust" class="language-rust "><code class="language-rust" data-lang="rust">use crate::riddler;
+
+fn my_real_name() -&gt; String {
+    &quot;Bruce Wayne&quot;.to_string()
+}
+
+pub fn batman_quote() -&gt; String {
+    &#x2F;&#x2F; nobody will know
+    let _my_secret_identity = my_real_name();
+
+    &#x2F;&#x2F; ask riddler for a riddle
+    let _riddle = riddler::difficult_riddle();
+
+    &quot;Robin, you haven&#x27;t fastened your safety bat-belt.&quot;.to_string()
+}
+
+pub fn advice() -&gt; String {
+    &quot;You&#x27;ve made a hasty generalization, Robin. It&#x27;s a bad habit to get into.&quot;.to_string()
+}
+</code></pre>
+<p><strong>src/robin.rs</strong>:</p>
+<pre data-lang="rust" class="language-rust "><code class="language-rust" data-lang="rust">use crate::batman;
+
+fn _just_a_thought() -&gt; String {
+    &quot;Gosh, if I could just figure out that riddle. Why can&#x27;t I get it?&quot;.to_string()
+}
+
+pub fn robin_exclamation() -&gt; String {
+    let _batmans_advice = batman::advice();
+
+    &quot;Holy Bat Logic!&quot;.to_string()
+}
+</code></pre>
+<p><strong>src/joker.rs</strong>:</p>
+<pre data-lang="rust" class="language-rust "><code class="language-rust" data-lang="rust">pub fn joker_warning() -&gt; String {
+    &quot;And now people of Gotham City, the moment you have all been waiting for.&quot;.to_string()
+}
+</code></pre>
+<p><strong>src/riddler.rs</strong>:</p>
+<pre data-lang="rust" class="language-rust "><code class="language-rust" data-lang="rust">pub fn difficult_riddle() -&gt; String {
+    &quot;Riddle me this, Batman: what are the chilliest 12 inches in the world?&quot;.to_string()
+}
+
+fn _another_riddle() -&gt; String {
+    &quot;How many sides has a circle?&quot;.to_string()
+}
+</code></pre>
+<p>A couple of observations:</p>
+<ul>
+<li>Only public functions (with a <code>pub</code> classifier) can be accessed outside the
+file where they are defined (<code>batman_quote</code>, <code>advice</code>, <code>joker_warning</code>,
+<code>difficult_riddle</code>, and <code>robin_exclamation</code>).</li>
+<li>Private functions (no <code>pub</code>) cannot be accessed outside the file (e.g.
+<code>my_real_name</code>).</li>
+<li>If we want to use a public function in another file (e.g. <code>difficult_riddle</code>
+in <code>src/batman.rs</code>), we have to &quot;use&quot; the corresponding file (<code>use crate::riddler</code>) and with this <code>riddler::difficult_riddle()</code> becomes
+visible.</li>
+<li>Some private function names start with an underscore (e.g.
+<code>_batmans_advice</code>): I did this only to silence <code>rustc</code> warnings about unused
+functions. In a real project this is not needed since hopefully all functions
+are used.</li>
+</ul>
+<h2 id="arranging-the-binary-crate">Arranging the binary crate</h2>
+<p>This is the content of
+<strong>src/main.rs</strong>:</p>
+<pre data-lang="rust" class="language-rust "><code class="language-rust" data-lang="rust">mod riddler;
+
+fn main() {
+    println!(&quot;Na na na na na na na na Batman!&quot;);
+
+    &#x2F;&#x2F; using a library function
+    let quote = gotham::batman_quote();
+    println!(&quot;Batman says: {}&quot;, quote);
+
+    &#x2F;&#x2F; this function is not part of the library
+    let quote = riddler::difficult_riddle();
+    println!(&quot;Riddler says: {}&quot;, quote);
+}
+</code></pre>
+<p>We brought two functions in:</p>
+<ul>
+<li><code>gotham::batman_quote()</code>: this is a library function of the <code>gotham</code> library
+crate, exported in <code>src/lib.rs</code>.</li>
+<li><code>riddler::difficult_riddle()</code>: this function is not part of the library
+interface and we brought it into scope with the help of <code>mod riddler</code>.
+We can use it here but we cannot use the function outside the library crate.</li>
+</ul>
+<p>We could remove <code>src/main.rs</code> and we would end up with only a library crate and
+the integration tests (below) would still work.</p>
+<h2 id="testing-the-library-functions">Testing the library functions</h2>
+<p>In <code>tests/integration_test.rs</code> we test the 3 library functions. Note how we call
+them with the <code>gotham::</code> namespace.</p>
+<p><strong>tests/integration_test.rs</strong>:</p>
+<pre data-lang="rust" class="language-rust "><code class="language-rust" data-lang="rust">#[test]
+fn batman() {
+    let quote = gotham::batman_quote();
+    assert_eq!(quote, &quot;Robin, you haven&#x27;t fastened your safety bat-belt.&quot;);
+}
+
+#[test]
+fn joker() {
+    let quote = gotham::joker_warning();
+    assert_eq!(
+        quote,
+        &quot;And now people of Gotham City, the moment you have all been waiting for.&quot;
+    );
+}
+
+#[test]
+fn robin() {
+    let quote = gotham::robin_exclamation();
+    assert_eq!(quote, &quot;Holy Bat Logic!&quot;);
+}
+</code></pre>
+<h2 id="conclusion">Conclusion</h2>
+<ul>
+<li>Each source file (except <code>main.rs</code> and <code>lib.rs</code>) is listed in <code>src/lib.rs</code>.</li>
+<li>Many projects have no <code>main.rs</code>.</li>
+<li>Each function which is supposed to be visible outside the library is
+explicitly listed in <code>src/lib.rs</code>.</li>
+<li>I like to test the library functions in <code>tests/integration_test.rs</code>: not only
+to test the functions themselves but also that their export is working.</li>
+</ul>
+<p>You can find the full example here: <a href="https://github.com/bast/gotham">https://github.com/bast/gotham</a>.
+Suggestions and improvements are most welcome!</p>
+
+    </div>
+  </div>
+
+      </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js" integrity="sha256-CgSoWC9w5wNmI1aN8dIMK+6DPelUEtvDr+Bc2m/0Nx8=" crossorigin="anonymous"></script>
+
+  </body>
+</html>
