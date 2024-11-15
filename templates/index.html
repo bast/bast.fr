@@ -6,9 +6,12 @@
     <div class="six wide column">
       <h4 class="ui orange header" id="fonts">Radovan Bast</h4>
       <hr>
+
+      {% set about = get_page(path="index/about.md") %}
       <div class="small-buffer">
-        {{ config.extra.about | markdown | safe }}
+        {{ about.content | safe }}
       </div>
+
       <div class="top-buffer">
         {% set img = resize_image(path="img/radovan-bast.jpg", width=180, op="fit_width") %}
         <img src="{{ img.url }}" alt="Radovan Bast" />

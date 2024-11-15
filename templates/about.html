@@ -6,9 +6,11 @@
       {% set img = resize_image(path="img/radovan-bast.jpg", width=180, op="fit_width") %}
       <img src="{{ img.url }}" alt="Radovan Bast" />
     </div>
+
+    {% set about = get_page(path="index/about.md") %}
     <div class="twelve wide column">
       <p>
-        {{ config.extra.about | markdown | safe }}
+        {{ about.content | safe }}
       </p>
     </div>
   </div>
