@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-  {% set data = load_data(path="content/projects/data.toml") %}
+  {% set data = load_data(path="content/projects/data.yml") %}
 
   <div class="ui divided items">
     {% for project in data.projects %}

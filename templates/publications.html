@@ -6,7 +6,7 @@
   <br>
   <br>
 
-  {% set data = load_data(path="content/publications/data.toml") %}
+  {% set data = load_data(path="content/publications/data.yml") %}
   {% for publication in data.publications | reverse %}
     <div>
       {{ publication.authors }}
