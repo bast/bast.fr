@@ -1,10 +1,10 @@
-The sources behind https://bast.fr.
+# The sources behind https://bast.fr
 
 History of tools:
-- HTML
-- PHP
-- Django
-- Yesod
-- Flask
-- Jekyll
-- Zola
+HTML ->
+PHP ->
+Django ->
+Yesod ->
+Flask ->
+Jekyll ->
+Zola
