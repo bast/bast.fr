@@ -317,8 +317,6 @@ sections:
         text: Understanding Open Source and Free Software Licensing
       - url: https://tldrlegal.com
         text: Software Licenses in Plain English
-      - url: http://twitter.github.io
-        text: Twitter open source libraries
       - url: http://linkedin.github.io
         text: LinkedIn open source libraries
   - name: Paragliding
