@@ -1,61 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>{{ config.title }}</title>
+    <link rel="shortcut icon" href="{{ get_url(path="img/favicon.ico") }}">
+
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="/ico/favicon.ico">
 
-    <title>Radovan Bast | Home Sweet Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js"></script>
 
-    {% if page.description %}
-      <meta name="description" content="{{ page.description }}" />
-    {% else %}
-      <meta name="description" content="{{ config.description }}" />
-    {% endif %}
-
-    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css" integrity="sha256-UXesixbeLkB/UYxVTzuj/gg3+LMzgwAmg3zD+C4ZASQ=" crossorigin="anonymous">
-
-    <link href="/css/style.css" rel="stylesheet">
+    <link href="{{ get_url(path="style.css") }}" rel="stylesheet">
   </head>
 
   <body>
+    <div class="uk-container uk-margin-large-bottom">
 
-    <div class="ui container bottom-buffer">
-      <div class="ui secondary pointing stackable menu">
+      {% include "navigation.html" %}
 
-        {% set data = load_data(path="content/navigation.yml") %}
-        <div class="right menu">
-          {% for link in data.navigation %}
-            <a class="item" href="{{ link.path | safe }}" id="fonts">{{ link.name }}</a>
-          {% endfor %}
-        </div>
-      </div>
+      {% if page.title %}
+        <h4>{{ page.title }}</h4>
+        <hr>
+      {% endif %}
+      {% if section.title %}
+        <h4>{{ section.title }}</h4>
+        <hr>
+      {% endif %}
 
-      <div class="top-buffer">
-        {% block page_title %}
-          {% if page.title %}
-            <h4 class="ui orange header" id="fonts">{{ page.title }}</h4>
-            <hr>
-          {% endif %}
-          {% if section.title %}
-            <h4 class="ui orange header" id="fonts">{{ section.title }}</h4>
-            <hr>
-          {% endif %}
-        {% endblock page_title %}
-
+      <div class="markdown">
         {% block content %}
         {% endblock content %}
       </div>
 
+      <hr>
+
+      {% include "footer.html" %}
+
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js" integrity="sha256-CgSoWC9w5wNmI1aN8dIMK+6DPelUEtvDr+Bc2m/0Nx8=" crossorigin="anonymous"></script>
-
   </body>
 </html>

@@ -1,80 +1,38 @@
+{% import "macros.html" as macros %}
+
 {% extends "base.html" %}
 
 {% block content %}
-  <div class="ui stackable grid">
+  <div class="uk-child-width-expand@s" uk-grid>
+    <div class="uk-width-1-3@m">
+      <h4>Radovan Bast</h4>
 
-    <div class="six wide column">
-      <h4 class="ui orange header" id="fonts">Radovan Bast</h4>
       <hr>
 
       {% set about = get_page(path="index/about.md") %}
-      <div class="small-buffer">
-        {{ about.content | safe }}
-      </div>
+      {{ about.content | safe }}
 
-      <div class="top-buffer">
-        {% set img = resize_image(path="img/radovan-bast.jpg", width=180, op="fit_width") %}
-        <img src="{{ img.url }}" alt="Radovan Bast" />
-      </div>
+      {% set img = resize_image(path="img/radovan-bast.jpg", width=180, op="fit_width") %}
+      <img src="{{ img.url }}" alt="Radovan Bast" />
     </div>
 
-    <div class="ten wide column">
-      <h4 class="ui orange header" id="fonts">Projects</h4>
+    <div class="uk-width-2-3@m">
+      <h4>Projects</h4>
+
       <hr>
 
-      {% set data = load_data(path="content/projects/data.yml") %}
+      {{ macros::projects(count=6) }}
 
-      <div class="ui divided items">
-        {% for project in data.projects %}
-          {% if loop.index < 7 %}
-            <div class="item">
-              <div class="ui tiny image">
-                {% if project.image %}
-                  <a target="_blank" href="{{ project.url | safe }}">
-                    {% if 'http' in project.image %}
-                      <img src="{{ project.image | safe }}"
-                           alt="{{ project.name }} project icon"
-                           class="ui tiny image">
-                    {% else %}
-                      {% set img = resize_image(path="projects/" ~ project.image, width=150, op="fit_width") %}
-                      <img src="{{ img.url }}"
-                           alt="{{ project.name }} project icon"
-                           class="ui tiny image">
-                    {% endif %}
-                  </a>
-                {% else %}
-                  <!-- <img src="/images/wireframe/image.png"> -->
-                {% endif %}
-              </div>
-              <div class="content">
-                <h5 class="ui header" id="fonts">
-                  <a target="_blank" href="{{ project.url | safe }}">{{ project.name }}</a>
-                </h5>
-                <div class="description">
-                  <p>{{ project.text | markdown | safe }}</p>
-                </div>
-                {% if project.role %}
-                  <div class="extra">
-                    My role: {{ project.role }}
-                  </div>
-                {% endif %}
-              </div>
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-
-      <div class="ui floating message">
+      <div class="uk-card uk-card-default uk-card-small uk-card-body uk-margin-large-top">
         <a href="/projects/">More projects ...</a>
       </div>
 
-      <hr class="top-buffer">
+      <hr>
+
       <p>
         Small things I learned recently:
         <a target="_blank" href="https://github.com/bast/til">https://github.com/bast/til</a>
       </p>
-
     </div>
-
   </div>
 {% endblock content %}

@@ -107,7 +107,7 @@ projects:
       contributions.
   - name: runtest
     url: http://runtest.readthedocs.io
-    image: https://raw.githubusercontent.com/bast/runtest/master/img/xanathar.jpg
+    image: https://raw.githubusercontent.com/bast/runtest/master/img/runtest-small.png
     text: |
       Numerically tolerant end-to-end test library for scientific codes.
 

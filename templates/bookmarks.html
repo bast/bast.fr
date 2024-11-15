@@ -1,48 +1,21 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <div class="ui container">
-    <p>
-      This is a semi-organized bookmark collection of pages which were either
-      interesting to read or pages which looked like an interesting
-      read for a rainy day.
-    </p>
-  </div>
+  <p>
+    This is a semi-organized bookmark collection of pages which were either
+    interesting or pages which looked like an interesting read for a rainy day.
+  </p>
 
   {% set data = load_data(path="content/bookmarks/data.yml") %}
-  {% set num_sections = data.sections | length %}
 
-  <div class="top-buffer">
-    <div class="ui grid stackable container">
-
-      <!-- left column -->
-      <div class="eight wide column">
-        {% for section in data.sections %}
-          {% if loop.index <= num_sections / 2 %}
-            <h4 class="ui header" id="fonts">{{ section.name }}</h4>
-            {% for link in section.links %}
-              <div>
-                <a href="{{ link.url }}">{{ link.text }}</a>
-              </div>
-            {% endfor %}
-          {% endif %}
-        {% endfor %}
-      </div>
-
-      <!-- right column -->
-      <div class="eight wide column">
-        {% for section in data.sections %}
-          {% if loop.index > num_sections / 2 %}
-            <h4 class="ui header" id="fonts">{{ section.name }}</h4>
-            {% for link in section.links %}
-              <div>
-                <a href="{{ link.url }}">{{ link.text }}</a>
-              </div>
-            {% endfor %}
-          {% endif %}
-        {% endfor %}
-      </div>
-
-    </div>
+  <div class="uk-column-1-2">
+    {% for section in data.sections %}
+      <h4>{{ section.name }}</h4>
+      {% for link in section.links %}
+        <div>
+          <a href="{{ link.url }}">{{ link.text }}</a>
+        </div>
+      {% endfor %}
+    {% endfor %}
   </div>
 {% endblock content %}

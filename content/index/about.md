@@ -20,8 +20,12 @@ and
 and
 [Theoretical Chemistry and Biology](https://www.theochem.kth.se) in Stockholm.
 
-[Email](mailto:firstname.lastname@uit.no),
-<a rel="me" href="https://fosstodon.org/@radovan">Mastodon</a>,
-[Bluesky](https://bsky.app/profile/radovan.bsky.social),
-[GitHub](https://github.com/bast),
+[Email](mailto:firstname.lastname@uit.no)
+|
+[Bluesky](https://bsky.app/profile/radovan.bsky.social)
+|
+<a rel="me" href="https://fosstodon.org/@radovan">Mastodon</a>
+|
+[GitHub](https://github.com/bast)
+|
 [GitLab](https://gitlab.com/bast)

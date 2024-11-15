@@ -1,43 +1,7 @@
+{% import "macros.html" as macros %}
+
 {% extends "base.html" %}
 
 {% block content %}
-  {% set data = load_data(path="content/projects/data.yml") %}
-
-  <div class="ui divided items">
-    {% for project in data.projects %}
-      <div class="item">
-        <div class="ui tiny image">
-          {% if project.image %}
-            <a target="_blank" href="{{ project.url | safe }}">
-              {% if 'http' in project.image %}
-                <img src="{{ project.image | safe }}"
-                     alt="{{ project.name }} project icon"
-                     class="ui tiny image">
-              {% else %}
-                {% set img = resize_image(path="projects/" ~ project.image, width=150, op="fit_width") %}
-                <img src="{{ img.url }}"
-                     alt="{{ project.name }} project icon"
-                     class="ui tiny image">
-              {% endif %}
-            </a>
-          {% else %}
-            <!-- <img src="/images/wireframe/image.png"> -->
-          {% endif %}
-        </div>
-        <div class="content">
-          <h5 class="ui header" id="fonts">
-            <a target="_blank" href="{{ project.url | safe }}">{{ project.name }}</a>
-          </h5>
-          <div class="description">
-            <p>{{ project.text | markdown | safe }}</p>
-          </div>
-          {% if project.role %}
-            <div class="extra">
-              My role: {{ project.role }}
-            </div>
-          {% endif %}
-        </div>
-      </div>
-    {% endfor %}
-  </div>
+  {{ macros::projects(count=30) }}
 {% endblock content %}

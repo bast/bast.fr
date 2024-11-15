@@ -1,13 +1,13 @@
 navigation:
   - name: Home
-    path: /
+    target: /
   - name: About
-    path: /about/
+    target: /about/
   - name: Projects
-    path: /projects/
+    target: /projects/
   - name: Publications
-    path: /publications/
+    target: /publications/
   - name: Blog
-    path: /blog/
+    target: /blog/
   - name: Bookmarks
-    path: /bookmarks/
+    target: /bookmarks/

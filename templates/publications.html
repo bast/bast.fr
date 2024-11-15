@@ -1,18 +1,11 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <a href="/publications/latex/">Show LaTeX-friendly version</a>
-  <br>
-  <br>
-  <br>
-
-  {% set data = load_data(path="content/publications/data.yml") %}
+  {% set data = load_data(path="content/publications.yml") %}
   {% for publication in data.publications | reverse %}
-    <div>
-      {{ publication.authors }}
-      <br>
-      <em>{{ publication.title }}</em>
-      <br>
+    <div class="uk-margin-bottom">
+      {{ publication.authors }} <br>
+      {{ publication.title }} <br>
       <a href="http://dx.doi.org/{{ publication.doi }}">
         {{ publication.journal }}
         {% if publication.volume %}
@@ -23,8 +16,6 @@
       {% if publication.correction %}
         <a href="http://dx.doi.org/{{ publication.correction }}">(correction/addition)</a>
       {% endif %}
-      <br>
-      <br>
     </div>
   {% endfor %}
 {% endblock content %}
