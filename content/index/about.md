@@ -27,5 +27,3 @@ and
 <a rel="me" href="https://fosstodon.org/@radovan">Mastodon</a>
 |
 [GitHub](https://github.com/bast)
-|
-[GitLab](https://gitlab.com/bast)
