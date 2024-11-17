@@ -1,12 +1,20 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <p>
-    This is a semi-organized bookmark collection of pages which were either
-    interesting or pages which looked like an interesting read for a rainy day.
-  </p>
-
   {% set data = load_data(path="content/bookmarks.yml") %}
+
+  {% set counter = 1 %}
+  {% for section in data.sections %}
+    {% for link in section.links %}
+      {% set_global counter = counter + 1 %}
+    {% endfor %}
+  {% endfor %}
+
+  <p>
+    Instead of this page I could have
+    {{ counter }}
+    browser tabs open.
+  </p>
 
   <div class="uk-column-1-2">
     {% for section in data.sections %}
