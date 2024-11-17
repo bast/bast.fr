@@ -11,6 +11,12 @@ sections:
         text: Linear Algebra and Learning from Data
       - url: https://gameprogrammingpatterns.com/contents.html
         text: Game Programming Patterns
+      - url: https://probml.github.io/pml-book/book1.html
+        text: "Probabilistic Machine Learning: An Introduction"
+      - url: https://eglerean.github.io/aiqualitative/index.html
+        text: "AI for Qualitative Data Analysis: A Practical Guide for Researchers"
+      - url: https://book.sciml.ai
+        text: Parallel Computing and Scientific Machine Learning
   - name: Category theory
     links:
       - url: https://www.infoq.com/presentations/category-theory-propositions-principle/
@@ -51,12 +57,18 @@ sections:
         text: Lunarbaboon
       - url: http://www.incidentalcomics.com
         text: Incidental comics
+  - name: Computing
+    links:
+      - url: https://cpu.land
+        text: Putting the "You" in CPU
   - name: Conferences
     links:
       - url: https://foss.events
         text: FOSS events
       - url: https://lessobvious.cc
         text: The Less Obvious Conference Checklist
+      - url: https://pretix.eu/about/en/
+        text: Ticketing software
   - name: Data
     links:
       - url: http://openrefine.org
@@ -199,6 +211,8 @@ sections:
         text: AnchorJS
   - name: Languages
     links:
+      - url: https://futhark-lang.org
+        text: Futhark
       - url: http://julialang.org
         text: Julia
       - url: https://pine.fm/LearnToProgram/
@@ -273,6 +287,8 @@ sections:
         text: Men that went shopping
       - url: http://photography-mapped.com/index.html
         text: Photography mapped
+      - url: https://www.theuncomfortable.com
+        text: The Uncomfortable
   - name: Numerical precision
     links:
       - url: https://floating-point-gui.de
@@ -287,8 +303,14 @@ sections:
         text: Advent of Code
       - url: https://cses.fi/problemset/
         text: CSES Problem Set
+      - url: https://www.mathpuzzle.com
+        text: mathpuzzle
   - name: Python
     links:
+      - url: https://www.pyopensci.org/
+        text: pyOpenSci
+      - url: https://learn.scientific-python.org/development/
+        text: Scientific Python Library Development Guide
       - url: https://docs.python-guide.org
         text: The Hitchhiker's Guide to Python
       - url: https://www.youtube.com/watch?v=OSGv2VnC0go
@@ -319,6 +341,12 @@ sections:
         text: Facts and myths about Python names and values
       - url: https://libraries.io/pypi/Flask/3.0.2/tree
         text: Dependency tree for a Python package
+      - url: https://geo-python-site.readthedocs.io/
+        text: Geo-Python 2024
+      - url: https://autogis-site.readthedocs.io/
+        text: Automating GIS Processes 2024
+      - url: https://www.nltk.org/book/
+        text: Natural Language Processing with Python
   - name: Research software
     links:
       - url: https://www.economist.com/science-and-technology/2016/03/23/of-more-than-academic-interest
@@ -329,6 +357,14 @@ sections:
         text: ESIP Software Guidelines
       - url: https://adore.software/
         text: Amsterdam Declaration on Funding Research Software Sustainability
+      - url: https://coding-confessions.github.io
+        text: Coding Confessions
+      - url: https://findata.fi/en/services-and-instructions/producing-anonymous-results/
+        text: Producing anonymous results
+  - name: Rust
+    links:
+      - url: https://scientificcomputing.rs
+        text: Scientific Computing in Rust
   - name: Scientific review
     links:
       - url: http://www.bcl.hamilton.ie/~barak/how-to-review.html
@@ -339,16 +375,26 @@ sections:
         text: Brute force password cracking
       - url: https://research.swtch.com/deps
         text: Our Software Dependency Problem
+  - name: Shells
+    links:
+      - url: https://effective-shell.com
+        text: Effective Shell
   - name: Typography
     links:
       - url: https://practicaltypography.com
         text: Practical Typography
       - url: https://typesetinthefuture.com
         text: Typeset In The Future
+      - url: https://www.programmingfonts.org
+        text: Programming Fonts
   - name: Unsorted
     links:
+      - url: https://oeis.org
+        text: The On-Line Encyclopedia of Integer Sequences
       - url: https://www.black-holes.org
         text: Simulating extreme spacetimes
+      - url: https://voyant-tools.org
+        text: Voyant Tools is a web-based reading and analysis environment for digital texts
       - url: https://www.wisecrack.co/8-bit-philosophy
         text: 8-Bit Philosophy
       - url: http://www.mcsweeneys.net/articles/kafkas-joke-book
