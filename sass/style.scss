@@ -60,3 +60,7 @@ pre mark {
 .site-footer a {
   color: #909090;
 }
+
+.no-break {
+  break-inside: avoid;
+}
