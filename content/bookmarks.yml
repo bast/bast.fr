@@ -3,6 +3,14 @@ sections:
     links:
       - url: https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html
         text: The Structure and Interpretation of Computer Programs
+      - url: https://statsthinking21.github.io/statsthinking21-core-site/
+        text: Statistical Thinking for the 21st Century
+      - url: https://rap4mads.eu
+        text: Building Reproducible Analytical Pipelines
+      - url: https://math.mit.edu/~gs/learningfromdata/
+        text: Linear Algebra and Learning from Data
+      - url: https://gameprogrammingpatterns.com/contents.html
+        text: Game Programming Patterns
   - name: Category theory
     links:
       - url: https://www.infoq.com/presentations/category-theory-propositions-principle/
@@ -43,8 +51,10 @@ sections:
         text: Lunarbaboon
       - url: http://www.incidentalcomics.com
         text: Incidental comics
-  - name: Conference preparation
+  - name: Conferences
     links:
+      - url: https://foss.events
+        text: FOSS events
       - url: https://lessobvious.cc
         text: The Less Obvious Conference Checklist
   - name: Data
@@ -105,6 +115,8 @@ sections:
         text: Dungeon Master - Open Edition
   - name: Git
     links:
+      - url: https://ohmygit.org/
+        text: Oh My Git!
       - url: http://pcottle.github.io/learnGitBranching/
         text: Learn Git branching
       - url: http://git-man-page-generator.lokaltog.net
@@ -163,6 +175,10 @@ sections:
     links:
       - url: https://howdns.works
         text: A fun and colorful explanation of how DNS works
+      - url: https://messwithdns.net/
+        text: Mess with DNS
+      - url: https://99percentinvisible.org/episode/the-lost-cities-of-geo/
+        text: The Lost Cities of Geo
   - name: JavaScript
     links:
       - url: http://eloquentjavascript.net
@@ -261,6 +277,16 @@ sections:
     links:
       - url: https://floating-point-gui.de
         text: The floating point guide
+      - url: https://ciechanow.ski/exposing-floating-point/
+        text: Exposing Floating Point
+      - url: https://float.exposed
+        text: Float exposed
+  - name: Puzzles
+    links:
+      - url: https://adventofcode.com
+        text: Advent of Code
+      - url: https://cses.fi/problemset/
+        text: CSES Problem Set
   - name: Python
     links:
       - url: https://docs.python-guide.org
@@ -291,6 +317,8 @@ sections:
         text: Python for Computational Science and Engineering
       - url: https://nedbatchelder.com/text/names.html
         text: Facts and myths about Python names and values
+      - url: https://libraries.io/pypi/Flask/3.0.2/tree
+        text: Dependency tree for a Python package
   - name: Research software
     links:
       - url: https://www.economist.com/science-and-technology/2016/03/23/of-more-than-academic-interest
@@ -299,6 +327,8 @@ sections:
         text: Good Enough Practices for Scientific Computing
       - url: https://esipfed.github.io/Software-Assessment-Guidelines/
         text: ESIP Software Guidelines
+      - url: https://adore.software/
+        text: Amsterdam Declaration on Funding Research Software Sustainability
   - name: Scientific review
     links:
       - url: http://www.bcl.hamilton.ie/~barak/how-to-review.html
@@ -307,14 +337,28 @@ sections:
     links:
       - url: http://www.genaud.net/2013/11/password-cracking/password-cracking-v0.html
         text: Brute force password cracking
+      - url: https://research.swtch.com/deps
+        text: Our Software Dependency Problem
+  - name: Typography
+    links:
+      - url: https://practicaltypography.com
+        text: Practical Typography
+      - url: https://typesetinthefuture.com
+        text: Typeset In The Future
   - name: Unsorted
     links:
+      - url: https://www.black-holes.org
+        text: Simulating extreme spacetimes
       - url: https://www.wisecrack.co/8-bit-philosophy
         text: 8-Bit Philosophy
       - url: http://www.mcsweeneys.net/articles/kafkas-joke-book
         text: Kafka's joke book
       - url: http://www.catb.org/esr/faqs/smart-questions.html
         text: How To Ask Questions The Smart Way
+      - url: https://praeclarum.org/2022/02/19/hard-problems.html
+        text: Practical Guide to Solving Hard Problems
+      - url: https://www.documentcloud.org/documents/69746-hart-smith-on-outsourcing
+        text: Hart Smith on Outsourcing
       - url: http://www.space-invaders.com
         text: Invader
       - url: http://www.theverge.com/2015/10/25/9457247/the-simpsons-al-jean-interview
@@ -323,8 +367,6 @@ sections:
         text: Ten Steps to Better Public Speaking
       - url: http://hintjens.com/blog:100
         text: 'Amdahl to Zipf: Ten Laws of the Physics of People'
-      - url: https://typesetinthefuture.com
-        text: Typeset In The Future
       - url: https://www.instagram.com/thisbrutalhouse/
         text: This Brutal House
       - url: https://media.pragprog.com/articles/mar_02_archeology.pdf
