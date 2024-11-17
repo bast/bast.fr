@@ -19,14 +19,16 @@
 
       {% include "navigation.html" %}
 
-      {% if page.title %}
-        <h4>{{ page.title }}</h4>
-        <hr>
-      {% endif %}
-      {% if section.title %}
-        <h4>{{ section.title }}</h4>
-        <hr>
-      {% endif %}
+      {% block pagetitle %}
+        {% if page.title %}
+          <h4>{{ page.title }}</h4>
+          <hr>
+        {% endif %}
+        {% if section.title %}
+          <h4>{{ section.title }}</h4>
+          <hr>
+        {% endif %}
+      {% endblock pagetitle %}
 
       <div class="markdown">
         {% block content %}
