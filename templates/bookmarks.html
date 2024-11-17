@@ -19,7 +19,7 @@
   <div class="uk-column-1-2">
     {% for section in data.sections %}
       <div class="no-break uk-margin-large-bottom">
-        <h4>{{ section.name }}</h4>
+        <h2>{{ section.name }}</h2>
         {% for link in section.links %}
           <div>
             <a href="{{ link.url }}" target="_blank">{{ link.text }}</a>

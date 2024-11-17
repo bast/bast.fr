@@ -12,6 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.13/dist/js/uikit-icons.min.js"></script>
 
     <link href="{{ get_url(path="style.css") }}" rel="stylesheet">
+    <link href="{{ get_url(path="fonts.css") }}" rel="stylesheet">
   </head>
 
   <body>
@@ -21,11 +22,11 @@
 
       {% block pagetitle %}
         {% if page.title %}
-          <h4>{{ page.title }}</h4>
+          <h1>{{ page.title }}</h1>
           <hr>
         {% endif %}
         {% if section.title %}
-          <h4>{{ section.title }}</h4>
+          <h1>{{ section.title }}</h1>
           <hr>
         {% endif %}
       {% endblock pagetitle %}
