@@ -64,3 +64,28 @@
     {% endif %}
   {% endfor %}
 {% endmacro toc %}
+
+{% macro list(data, heading) %}
+  <table class="uk-table uk-table-small uk-table-justify">
+    <tr>
+      <td></td>
+      <td>
+        <h2>{{ heading }}</h2>
+      </td>
+    </tr>
+    {% for item in data %}
+      <tr>
+        <td class="uk-width-1-5">
+          {% if item.start %}
+            <b>{{ item.start }} &mdash; {{ item.end }}</b>
+          {% else %}
+            <b>{{ item.year }}</b>
+          {% endif %}
+        </td>
+        <td>
+          {{ item.text | markdown | safe }}
+        </td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endmacro list %}

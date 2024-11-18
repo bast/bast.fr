@@ -1,0 +1,176 @@
+---
+employment:
+  - start: 2016
+    end: present
+    text: |
+      Managing the [CodeRefinery](https://coderefinery.org) project \
+      [Nordic e-Infrastructure Collaboration](https://neic.no), 50% position
+  - start: 2015
+    end: present
+    text: |
+      Senior engineer at the [High Performance Computing Group](https://hpc.uit.no), UiT The Arctic University of Norway, Tromsø, Norway \
+      Leading the [HPC group](https://hpc.uit.no) and the [research software engineering (RSE) group](https://research-software.uit.no)
+  - start: 2013
+    end: 2015
+    text: |
+      Application expert at the [PDC Center for High Performance Computing](https://www.pdc.kth.se) \
+      Researcher at the Division of Theoretical Chemistry & Biology, Royal Institute of Technology, Stockholm, Sweden
+  - start: 2011
+    end: 2013
+    text: |
+      Researcher (CNRS CR2; Section "Atomes et molécules - Optique et lasers - Plasmas chauds) \
+      CNRS/ Université Paul Sabatier, Toulouse, France
+  - start: 2008
+    end: 2011
+    text: |
+      Post-doc with Prof. Dr. K. Ruud (Theoretical and computational chemistry) \
+      CTCC/ University of Tromsø, Tromsø, Norway
+
+education:
+  - start: 2004
+    end: 2008
+    text: |
+      PhD (theoretical chemistry): Disputation date: January 8, 2008 \
+      Université Louis Pasteur, Strasbourg, France
+  - start: 1999
+    end: 2004
+    text: |
+      Master ("Diplom" in chemistry) \
+      Philipps-Universität Marburg, Marburg, Germany
+  - start: 2002
+    end: 2003
+    text: |
+      Research project with Prof. Dr. P. Schwerdtfeger (6 months) \
+      University of Auckland, Auckland, New Zealand
+
+books:
+  - year: 2018
+    text: |
+      Co-authored the [CMake Cookbook](https://www.packtpub.com/application-development/cmake-cookbook)
+  - year: 2013
+    text: |
+      Edited the book series 'European Summerschool in Quantum Chemistry'
+
+awards:
+  - year: 2019
+    text: |
+      Professeur invité (invited research speaker) at the University of Lille, Lille, France
+  - year: 2008
+    text: |
+      Award, Prix de thèse de la Division de Chimie Physique de la Société Française de Chimie 2008
+  - start: 2004
+    end: 2007
+    text: |
+      Scholarship, Fonds der Chemischen Industrie: Kekulé Scholarship (24 months)
+  - start: 2004
+    end: 2007
+    text: |
+      Scholarship, Conseil Régional d'Alsace: Bourse Régionale de Recherche (12 months)
+
+mentoring:
+  - start: 2022
+    end: present
+    text: |
+      Leading the [HPC group](https://hpc.uit.no) at UiT The Arctic University of Norway, Tromsø, Norway:
+      Team of 12 engineers
+  - start: 2022
+    end: present
+    text: |
+      Leading the [research software engineering (RSE) group](https://research-software.uit.no) at UiT The Arctic University of Norway, Tromsø, Norway:
+      Team of 5 engineers
+  - year: 2015
+    text: |
+      Co-supervised 1 master student (Jano Minárik) \
+      Slovak University of Technology, Bratislava, Slovakia
+  - start: 2012
+    end: 2013
+    text: |
+      Supervised 2 research fellows (Juliana Murillo, Cristina A. Barboza) at
+      CNRS/ Université Paul Sabatier, Toulouse, France
+  - start: 2009
+    end: 2011
+    text: |
+      Supervised 2 research fellows (Franklin Ferraro, Shubhrodeep Pathak) at
+      CTCC/ University of Tromsø, Tromsø, Norway
+
+teaching:
+  - start: 2016
+    end: 2023
+    text: |
+      Co-organized and taught over 30 [CodeRefinery workshops](https://coderefinery.org/workshops/past/) in research software development tools
+  - start: 2018
+    end: 2019
+    text: |
+      Organized monthly [Python 'open mike' events](https://uit-no.github.io/python-open-mike/)
+  - year: 2018
+    text: |
+      Organized a two-day [Software Carpentry course](https://uit-no.github.io/2018-11-08-uit/) in Tromsø, Norway
+  - year: 2018
+    text: |
+      Organized a three-day [Python course](https://github.com/uit-no/python-course-2018/) in Tromsø, Norway
+  - year: 2016
+    text: |
+      Organized a three-day [Python course](https://uit-no.github.io/python-course-2016/) in Tromsø, Norway
+  - year: 2016
+    text: |
+      Organized the [Scientific software development toolbox](http://sese.nu/scientific-software-development-toolbox-2016/) course, Stockholm, Sweden
+  - year: 2015
+    text: |
+      Instructor at a [Software Carpentry workshop](https://software-carpentry.org/blog/2015/12/workshop-in-stockholm.html), Stockholm, Sweden
+  - year: 2014
+    text: |
+      Organized the [Scientific software development toolbox](http://sese.nu/scientific-software-development-toolbox/) course, Stockholm, Sweden
+  - year: 2014
+    text: |
+      Tutor and lecturer at the course "Writing parallel applications using MPI", Stockholm, Sweden
+  - year: 2014
+    text: |
+      Tutor and lecturer at the High-Performance Computing Summer School, Stockholm, Sweden
+  - year: 2014
+    text: |
+      Tutor at a Software Carpentry workshop, Stockholm, Sweden
+  - year: 2013
+    text: |
+      Tutor at the Parallel Programming Workshop, Stuttgart, Germany
+  - year: 2013
+    text: |
+      Lecturer at the "Ecole Développement Logiciel en Chimie Quantique", Paris, France
+  - year: 2011
+    text: |
+      Exercise leader at the European Summer School in Quantum Chemistry
+  - start: 2009
+    end: 2014
+    text: |
+      Gave courses in theoretical chemistry and programming at Ph.D. and Master levels
+
+other:
+  - start: 2021
+    end: 2023
+    text: |
+      International Council of RSE Associations \
+      Member
+  - start: 2021
+    end: 2023
+    text: |
+      Nordic Research Software Engineers association \
+      Board member
+  - year: 2022
+    text: |
+      Nordic Research Software Engineers unconference \
+      Organization
+  - year: 2020
+    text: |
+      Nordic Research Software Engineers online get-together \
+      Organisation and program committee
+  - year: 2017
+    text: |
+      NeIC 2017 conference \
+      Program committee deputy chair, website
+  - year: 2007
+    text: |
+      Relativistic Effects in Heavy-Element Chemistry and Physics 2007 conference \
+      Website, book of abstracts, and coordination
+  - year: 2007
+    text: |
+      CDFT 2007 conference \
+      Website, book of abstracts, and coordination

@@ -1,0 +1,21 @@
+{% import "macros.html" as macros %}
+
+{% extends "base.html" %}
+
+{% block content %}
+  {% set data = load_data(path="content/cv.yml") %}
+
+  <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
+    <div>
+      {{ macros::list(data=data.employment, heading="Current and previous employment") }}
+      {{ macros::list(data=data.mentoring, heading="Mentoring and supervising") }}
+      {{ macros::list(data=data.other, heading="Other relevant professional experiences") }}
+    </div>
+    <div>
+      {{ macros::list(data=data.education, heading="Education") }}
+      {{ macros::list(data=data.awards, heading="Fellowships, awards, and prizes") }}
+      {{ macros::list(data=data.books, heading="Books") }}
+      {{ macros::list(data=data.teaching, heading="Teaching experience") }}
+    </div>
+  </div>
+{% endblock content %}

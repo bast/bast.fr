@@ -5,6 +5,8 @@ navigation:
     target: /about/
   - name: Projects
     target: /projects/
+  - name: CV
+    target: /cv/
   - name: Publications
     target: /publications/
 # - name: Blog
