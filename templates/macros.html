@@ -77,9 +77,9 @@
       <tr>
         <td class="uk-width-1-5">
           {% if item.start %}
-            <b>{{ item.start }} &mdash; {{ item.end }}</b>
+            {{ item.start }} &mdash; {{ item.end }}
           {% else %}
-            <b>{{ item.year }}</b>
+            {{ item.year }}
           {% endif %}
         </td>
         <td>
