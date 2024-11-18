@@ -1,6 +1,8 @@
 sections:
   - name: Books
     links:
+      - url: https://natureofcode.com
+        text: The Nature of Code
       - url: https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html
         text: The Structure and Interpretation of Computer Programs
       - url: https://statsthinking21.github.io/statsthinking21-core-site/
