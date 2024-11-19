@@ -81,10 +81,6 @@ sections:
         text: Write the Docs
       - url: http://scholarlymarkdown.com
         text: Scholarly markdown
-  - name: Encryption
-    links:
-      - url: https://wiki.osuosl.org/howtos/ssh_key_tutorial.html
-        text: SSH key tutorial
   - name: Fortran
     links:
       - url: http://www.ibiblio.org/pub/languages/fortran/ch1-8.html
@@ -217,6 +213,18 @@ sections:
         text: Textures.js
       - url: https://www.bryanbraun.com/anchorjs/
         text: AnchorJS
+  - name: Linux and shell
+    links:
+      - url: https://effective-shell.com
+        text: Effective Shell
+      - url: https://linuxjourney.com
+        text: Learn the ways of Linux-fu, for free
+      - url: https://www.shellcheck.net
+        text: ShellCheck
+      - url: https://wiki.osuosl.org/howtos/ssh_key_tutorial.html
+        text: SSH key tutorial
+      - url: https://overthewire.org/wargames/
+        text: Wargames by OverTheWire
   - name: Machine learning
     links:
       - url: http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf
@@ -233,8 +241,8 @@ sections:
         text: Scientists Embrace Openness
       - url: http://jakevdp.github.io/blog/2013/10/26/big-data-brain-drain/
         text: 'The Big Data Brain Drain: Why Science is in Trouble'
-      - url: https://danielskatzblog.wordpress.com/
-        text: Daniel S. Katz's blog
+      - url: http://www.bcl.hamilton.ie/~barak/how-to-review.html
+        text: How to Review a Scientific Paper
   - name: Open source
     links:
       - url: http://tom.preston-werner.com/2011/11/22/open-source-everything.html
@@ -257,6 +265,8 @@ sections:
         text: Pieter Hintjens
       - url: http://blog.reverberate.org
         text: Josh Haberman
+      - url: https://danielskatzblog.wordpress.com/
+        text: Daniel S. Katz's blog
   - name: Photography
     links:
       - url: http://edelmangallery.com/exhibitions-and-projects/exhibition-pages/2014/sandro-miller-malkovich,-malkovich,-malkovich-homage-to-photographic-masters.html
@@ -375,26 +385,12 @@ sections:
         text: Scientific Computing in Rust
       - url: https://rust-edu.zulip.cs.pdx.edu
         text: rust-edu Zulip
-  - name: Scientific review
-    links:
-      - url: http://www.bcl.hamilton.ie/~barak/how-to-review.html
-        text: How to Review a Scientific Paper
   - name: Security
     links:
       - url: http://www.genaud.net/2013/11/password-cracking/password-cracking-v0.html
         text: Brute force password cracking
       - url: https://research.swtch.com/deps
         text: Our Software Dependency Problem
-  - name: Shells and Linux
-    links:
-      - url: https://effective-shell.com
-        text: Effective Shell
-      - url: https://linuxjourney.com
-        text: Learn the ways of Linux-fu, for free
-      - url: https://www.shellcheck.net
-        text: ShellCheck
-      - url: https://overthewire.org/wargames/
-        text: Wargames by OverTheWire
   - name: Typography
     links:
       - url: https://practicaltypography.com
