@@ -93,6 +93,10 @@ sections:
         text: Fortran Best Practices
       - url: http://flibs.sourceforge.net/guidelines.html
         text: Possible guidelines for reviewing Fortran code
+      - url: https://github.com/ARCHER2-HPC/archer2-fortran-intro
+        text: Introduction to Modern Fortran
+      - url: https://arstechnica.com/science/2014/05/scientific-computings-future-can-any-coding-language-top-a-1950s-behemoth/
+        text: Can any coding language top a 1950s behemoth?
   - name: Functional programming
     links:
       - url: https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming
@@ -211,32 +215,6 @@ sections:
         text: Textures.js
       - url: https://www.bryanbraun.com/anchorjs/
         text: AnchorJS
-  - name: Languages
-    links:
-      - url: https://futhark-lang.org
-        text: Futhark
-      - url: http://julialang.org
-        text: Julia
-      - url: https://pine.fm/LearnToProgram/
-        text: A place to start for the future ruby programmer
-      - url: https://dart.dev
-        text: Dart
-      - url: http://norvig.com/21-days.html
-        text: Teach Yourself Programming in Ten Years
-      - url: http://codekata.com
-        text: CodeKata
-      - url: https://learnxinyminutes.com
-        text: Learn X in Y minutes
-      - url: http://dangermouse.net/esoteric/
-        text: DM's Esoteric Programming Languages
-      - url: http://hyperpolyglot.org
-        text: Hyperpolyglot
-      - url: http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
-        text: C++ Core Guidelines
-  - name: Linux
-    links:
-      - url: https://linuxjourney.com
-        text: Learn the ways of Linux-fu, for free
   - name: Machine learning
     links:
       - url: http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf
@@ -291,6 +269,32 @@ sections:
         text: Photography mapped
       - url: https://www.theuncomfortable.com
         text: The Uncomfortable
+  - name: Programming languages
+    links:
+      - url: https://p5js.org
+        text: p5.js
+      - url: https://liascript.github.io
+        text: LiaScript
+      - url: https://futhark-lang.org
+        text: Futhark
+      - url: http://julialang.org
+        text: Julia
+      - url: https://pine.fm/LearnToProgram/
+        text: A place to start for the future ruby programmer
+      - url: https://dart.dev
+        text: Dart
+      - url: http://norvig.com/21-days.html
+        text: Teach Yourself Programming in Ten Years
+      - url: http://codekata.com
+        text: CodeKata
+      - url: https://learnxinyminutes.com
+        text: Learn X in Y minutes
+      - url: http://dangermouse.net/esoteric/
+        text: DM's Esoteric Programming Languages
+      - url: http://hyperpolyglot.org
+        text: Hyperpolyglot
+      - url: http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
+        text: C++ Core Guidelines
   - name: Numerical precision
     links:
       - url: https://floating-point-gui.de
@@ -367,6 +371,8 @@ sections:
     links:
       - url: https://scientificcomputing.rs
         text: Scientific Computing in Rust
+      - url: https://rust-edu.zulip.cs.pdx.edu
+        text: rust-edu Zulip
   - name: Scientific review
     links:
       - url: http://www.bcl.hamilton.ie/~barak/how-to-review.html
@@ -377,10 +383,16 @@ sections:
         text: Brute force password cracking
       - url: https://research.swtch.com/deps
         text: Our Software Dependency Problem
-  - name: Shells
+  - name: Shells and Linux
     links:
       - url: https://effective-shell.com
         text: Effective Shell
+      - url: https://linuxjourney.com
+        text: Learn the ways of Linux-fu, for free
+      - url: https://www.shellcheck.net
+        text: ShellCheck
+      - url: https://overthewire.org/wargames/
+        text: Wargames by OverTheWire
   - name: Typography
     links:
       - url: https://practicaltypography.com
@@ -443,6 +455,12 @@ sections:
     links:
       - url: https://earth.nullschool.net
         text: 'Earth: a global map of wind, weather, and ocean conditions'
+      - url: https://www.data-to-viz.com
+        text: From Data to Viz
+      - url: https://python-graph-gallery.com
+        text: The Python Graph Gallery
+      - url: https://r-graph-gallery.com
+        text: The R Graph Gallery
   - name: Web development
     links:
       - url: http://www.mintemail.com
