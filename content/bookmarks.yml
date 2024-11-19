@@ -197,6 +197,8 @@ sections:
         text: Mess with DNS
       - url: https://99percentinvisible.org/episode/the-lost-cities-of-geo/
         text: The Lost Cities of Geo
+      - url: http://deletedcity.net
+        text: Deleted City
   - name: JavaScript
     links:
       - url: http://eloquentjavascript.net
