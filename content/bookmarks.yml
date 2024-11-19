@@ -173,6 +173,10 @@ sections:
     links:
       - url: https://medium.com/@fogleman/voxel-rendering-techniques-fa8d869457ca
         text: Voxel Rendering Techniques
+      - url: https://make8bitart.com
+        text: Make 8-bit art!
+      - url: https://lospec.com
+        text: Lospec, a home for digitally restrictive art
   - name: Haskell
     links:
       - url: http://stefan.saasen.me/articles/git-clone-in-haskell-from-the-bottom-up/
@@ -435,8 +439,6 @@ sections:
         text: The Moral Machine
       - url: https://nakamotoinstitute.org/shelling-out/
         text: 'Shelling Out: The Origins of Money'
-      - url: https://make8bitart.com
-        text: Make 8-bit art!
   - name: Versioning
     links:
       - url: http://semver.org
