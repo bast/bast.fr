@@ -127,6 +127,10 @@ sections:
     links:
       - url: http://dmle.sourceforge.net
         text: Dungeon Master - Open Edition
+      - url: https://www.cgwmuseum.org
+        text: Computer Gaming World Museum
+      - url: https://www.indieretronews.com
+        text: Indie Retro News
   - name: Git
     links:
       - url: https://ohmygit.org/
@@ -177,6 +181,8 @@ sections:
         text: Make 8-bit art!
       - url: https://lospec.com
         text: Lospec, a home for digitally restrictive art
+      - url: https://www.aseprite.org
+        text: Animated Spite Editor & Pixel Art Tool
   - name: Haskell
     links:
       - url: http://stefan.saasen.me/articles/git-clone-in-haskell-from-the-bottom-up/
