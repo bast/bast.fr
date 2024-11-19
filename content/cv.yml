@@ -94,6 +94,18 @@ mentoring:
       CTCC/ University of Tromsø, Tromsø, Norway
 
 teaching:
+  - year: 2024
+    text: |
+      Lecturer at the [PDC Summer School 2024](https://www.pdc.kth.se/summer-school/2024/)
+      teaching "Research software engineering".
+  - year: 2023
+    text: |
+      Lecturer at the [PRESIMAL Autumn Research School in Artificial Intelligence Methods in Medical Imaging 2023](https://mmiv.no/presimal-researchschool-2023/)
+      teaching "Reproducible and collaborative research software engineering".
+  - year: 2023
+    text: |
+      Lecturer at the [PDC Summer School 2023](https://www.pdc.kth.se/summer-school/previous/2023)
+      teaching "Research software engineering".
   - start: 2016
     end: 2023
     text: |
