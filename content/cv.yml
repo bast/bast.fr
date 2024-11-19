@@ -96,24 +96,48 @@ mentoring:
 teaching:
   - year: 2024
     text: |
+      Delivered a 3-day workshop
+      [Reproducible research software development using Python](https://coderefinery.github.io/reproducible-python/)
+      in Aachen, Germany
+  - year: 2024
+    text: |
       Lecturer at the [PDC Summer School 2024](https://www.pdc.kth.se/summer-school/2024/)
-      teaching "Research software engineering".
+      teaching "Research software engineering"
+  - year: 2024
+    text: |
+      Lecturer at the [European Light Field Imaging Workshop](https://elfi2024.eu)
+      teaching a 3-session [CodeRefinery mini-workshop](https://coderefinery.github.io/mini-workshop/)
+  - start: 2023
+    end: 2024
+    text: |
+      Taught "Data visualization" as part of a week-long course "Introduction
+      to Python in the Life Sciences Course" at UiT The Arctic University of
+      Norway
+  - start: 2016
+    end: 2024
+    text: |
+      Co-organized and taught over 30 [CodeRefinery
+      workshops](https://coderefinery.org/workshops/past/) in research software
+      development tools
   - year: 2023
     text: |
       Lecturer at the [PRESIMAL Autumn Research School in Artificial Intelligence Methods in Medical Imaging 2023](https://mmiv.no/presimal-researchschool-2023/)
-      teaching "Reproducible and collaborative research software engineering".
+      teaching "Reproducible and collaborative research software engineering"
   - year: 2023
     text: |
       Lecturer at the [PDC Summer School 2023](https://www.pdc.kth.se/summer-school/previous/2023)
       teaching "Research software engineering".
-  - start: 2016
+  - year: 2021
+    text: |
+      Taught a 3-day workshop "Data visualization using Python" at UiT The Arctic University of Norway
+  - start: 2020
     end: 2023
     text: |
-      Co-organized and taught over 30 [CodeRefinery workshops](https://coderefinery.org/workshops/past/) in research software development tools
+      Taught "Data visualization" as part of a week-long course on scientific writing at UiT The Arctic University of Norway
   - start: 2018
     end: 2019
     text: |
-      Organized monthly [Python 'open mike' events](https://uit-no.github.io/python-open-mike/)
+      Organized monthly Python 'open mic' events
   - year: 2018
     text: |
       Organized a two-day [Software Carpentry course](https://uit-no.github.io/2018-11-08-uit/) in Tromsø, Norway
