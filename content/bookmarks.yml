@@ -155,8 +155,8 @@ sections:
         text: 'Tech Talk: Linus Torvalds on Git'
       - url: http://sethrobertson.github.io/GitBestPractices/
         text: 'Commit Often, Perfect Later, Publish Once: Git Best Practices'
-      - url: https://github.com/pluralsight/git-internals-pdf/releases
-        text: PeepCode Git Internals
+      - url: https://github.com/pluralsight/git-internals-pdf
+        text: Git Internals
       - url: https://www.youtube.com/watch?v=U8GBXvdmHT4
         text: 'Webcast: The Basics of Git and GitHub'
       - url: https://zachholman.com/talk/how-github-uses-github-to-build-github/
