@@ -24,7 +24,7 @@
     {% if loop.index <= count %}
       <div class="uk-margin-bottom">
         <div class="uk-child-width-expand@s" uk-grid>
-          <div class="uk-width-1-6@s">
+          <div class="uk-width-1-5@s">
             {% if project.image %}
               <a target="_blank" href="{{ project.url | safe }}">
                 {% if 'http' in project.image %}
@@ -42,7 +42,7 @@
             {% endif %}
           </div>
 
-          <div class="uk-width-5-6@s">
+          <div class="uk-width-4-5@s">
             <div class="content">
               <h2 style="margin-bottom: -15px;">
                 <a target="_blank" href="{{ project.url | safe }}">{{ project.name }}</a>
