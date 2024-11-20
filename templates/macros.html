@@ -19,10 +19,8 @@
   {% endif %}
 {% endmacro toc %}
 
-{% macro projects(count) %}
-  {% set data = load_data(path="content/projects/data.yml") %}
-
-  {% for project in data.projects %}
+{% macro projects(data, count) %}
+  {% for project in data %}
     {% if loop.index <= count %}
       <div class="uk-child-width-expand@s" uk-grid>
         <div class="uk-width-1-6@s">

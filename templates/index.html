@@ -21,7 +21,8 @@
 
       <hr>
 
-      {{ macros::projects(count=6) }}
+      {% set data = load_data(path="content/projects/data.yml") %}
+      {{ macros::projects(data=data.active, count=6) }}
 
       <div class="uk-card uk-card-default uk-card-small uk-card-body uk-margin-large-top">
         <a href="/projects/">More projects ...</a>

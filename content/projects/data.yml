@@ -1,67 +1,40 @@
-projects:
-  - name: CMake Cookbook
-    url: https://www.packtpub.com/application-development/cmake-cookbook
-    image: cmake-cookbook-cover.png
-    text: |
-      Learn CMake through a series of task-based recipes that provide you with
-      practical, simple, and ready-to-use CMake solutions for your code.
-
-      The sources for the CMake Cookbook recipes are on
-      [GitHub](https://github.com/dev-cafe/cmake-cookbook).
-    role: Co-author
+active:
   - name: CodeRefinery
     url: https://coderefinery.org/
     image: coderefinery.png
     text: |
-      We are working with students, researchers, and research software engineers from
-      all disciplines to advance FAIRness of software management and development
-      practices so that research groups can collaboratively develop, review, discuss,
-      test, share and reuse their codes.
-
-      We offer training opportunities to researchers from Nordic research groups and
-      projects to learn basic-to-advanced research computing skills and become
-      confident in using state-of-the-art tools and practices from modern
-      collaborative software engineering.
+      We teach all the essential tools which are usually skipped in academic
+      education so everyone can make full use of software, computing, and data
+      with focus on reusability, reproducibility, and openness. We don't just
+      give courses, but we are a training network that you can join to share
+      the effort and bring better courses to your community.
     role: Project lead
-  - name: Research Software Hour
-    url: https://researchsoftwarehour.github.io/
-    image: rsh.png
-    text: |
-      Research Software Hour is an online stream/show about scientific computing and
-      research software. It is designed to provide the skills typically picked up via
-      informal networks: each week, we do some combination of exploring new tools,
-      analyzing and improving someone’s research code, and discussion.
-
-      Watchers can take part and contribute code to us which we analyze and discuss
-      on stream.
-
-      We broadcast on Twitch Tuesdays at 20:30 Oslo time / 21:30 Helsinki time.
-    role: Co-creator
-  - name: DIRAC
-    url: http://www.diracprogram.org
-    image: dirac.png
-    text: |
-      Program for Atomic and Molecular Direct Iterative Relativistic All-electron
-      Calculations.
-    role: |
-      Co-author, CMake infrastructure, migration to Git and GitLab, code maintenance and plumbing,
-      exchange-correlation integrator, visualization module, higher order response
-      properties.
   - name: Nordic research software engineers
     url: https://nordic-rse.org/
     image: nordic-rse-map.png
     text: |
       Co-building the community of Nordic research software engineers,
-      preparing the [first Nordic-RSE conference](https://nordic-rse.org/conference/),
-      and networking with fantastic people. Working on a
-      [map of RSEs](https://nordic-rse.org/map/) as well as a
-      [knowledge map](https://github.com/neicnordic/knowledge-map)
-      within [NeIC](https://neic.no/).
-
-      I have contributed to the organization of
-      [SORSE: International Series of Online Research Software Events](https://sorse.github.io/)
-      and the
-      [2nd Intl. RSE Leaders Workshop 2020](https://researchsoftware.org/2020-workshop.html).
+      and networking with fantastic people.
+  - name: Sonar
+    url: https://github.com/NordicHPC/sonar
+    text: |
+      Tool to profile usage of HPC resources by regularly probing processes using ps.
+      The code can do two things: take snapshots (sonar snap, typically every 20
+      minutes or so), and map them (sonar map, whenever you like) to
+      applications/projects/users. Integrates with
+      [sonar-web](https://github.com/NordicHPC/sonar-web)
+      to plot daily/weekly/monthly CPU usage summary for clusters.
+  - name: numgrid
+    url: https://github.com/dftlibs/numgrid
+    image: dftlibs-logo.png
+    text: |
+      Numgrid is a library that produces numerical integration grid for molecules
+      based on atom coordinates, atom types, and basis set information. This library
+      can be built with C, Fortran, and Python bindings.
+  - name: Polygons
+    url: https://github.com/bast/polygons
+    text: |
+      Fast points-in-polygon test and distances to polygons.
   - name: Cicero
     url: https://cicero.xyz
     text: |
@@ -76,35 +49,30 @@ projects:
       Code is on [GitHub](https://github.com/bast/cicero).
       Documentation is on [Read the Docs](https://cicero.readthedocs.io/).
     role: Idea and initial implementation
-  - name: Dalton and LSDalton
-    url: https://www.daltonprogram.org
-    image: dalton.jpg
+  - name: Flanders
+    url: https://github.com/bast/flanders
+    image: flanders.png
     text: |
-      Together, the two programs provide an extensive
-      functionality for the calculations of molecular properties at the HF, DFT,
-      MCSCF, and CC levels of theory.
-    role: |
-      CMake infrastructure, website, open-sourcing, migration to GitLab,
-      OpenRSP integration, magnetically-induced currents at the MCSCF level.
-  - name: Autocmake
-    url: http://www.autocmake.org
-    image: https://raw.githubusercontent.com/dev-cafe/autocmake/master/img/autocmake.png
+      Fast 2D nearest neighbor search with an angle.
+  - name: Coastal express
+    url: https://github.com/bast/coastal-express
     text: |
-      CMake plugin composer. Simplifies bootstrapping new CMake projects and simplifies
-      sharing reusable CMake building blocks across projects.
-    role: Initial implementation
-  - name: OpenRSP
-    url: https://openrsp.org
-    image: https://raw.githubusercontent.com/openrsp/logo/master/logo.png
+      Compute nearest neighbor distances along the coast with a view angle.
+  - name: THREAT DEFUSER
+    url: https://threat-defuser.org/
+    image: threat-defuser.png
     text: |
-      Program for the open-ended calculation of response properties. It
-      connects to response equation solution routines, routines for differentiated
-      one-electron and two-electron integral contributions, and routines for
-      exchange/correlation contributions to enable the calculation of response
-      properties to arbitrary order.
-    role: |
-      CMake infrastructure, website, open-sourcing, exchange-correlation
-      contributions.
+      THREAT-DEFUSER explores the role of "soft" information strategies propagated
+      through mass and social media that constitute hybrid warfare. We investigate
+      Norwegian perceptions of Russia, as well as Russian perceptions of Norway, in
+      the context of Norwegian national security.
+    role: Website, soon more.
+  - name: SMARTool
+    url: https://github.com/smartool/smartool-rus-eng
+    image: smartool.png
+    text: |
+      The Strategic Mastery of Russian Tool.
+    role: Implemented the initial web app.
   - name: runtest
     url: http://runtest.readthedocs.io
     image: https://raw.githubusercontent.com/bast/runtest/master/img/runtest-small.png
@@ -120,17 +88,59 @@ projects:
     image: gitink.jpg
     text: |
       ASCII to SVG Git log graph visualizer. Useful for teaching Git.
-  - name: Testboard
-    url: https://testboard.org
+
+standby:
+  - name: Research Software Hour
+    url: https://researchsoftwarehour.github.io/
+    image: rsh.png
     text: |
-      CDash hosting for research software.
+      Research Software Hour is an online stream/show about scientific computing and
+      research software. It is designed to provide the skills typically picked up via
+      informal networks: each episode is some combination of exploring new tools,
+      analyzing and improving someone’s research code, and discussion.
+    role: Co-creator
+  - name: DIRAC
+    url: http://www.diracprogram.org
+    image: dirac.png
+    text: |
+      Program for Atomic and Molecular Direct Iterative Relativistic All-electron
+      Calculations.
     role: |
-      Running this service myself because it needed to be done.
-      Please write me if you would like to use this.
-  - name: Angstrom <-> Bohr
-    url: http://bast.github.io/angstrom-bohr/
+      Co-author, CMake infrastructure, migration to Git and GitLab, code maintenance and plumbing,
+      exchange-correlation integrator, visualization module, higher order response
+      properties.
+  - name: CMake Cookbook
+    url: https://www.packtpub.com/application-development/cmake-cookbook
+    image: cmake-cookbook-cover.png
     text: |
-      Angstrom to Bohr and Bohr to Angstrom conversion without commercials.
+      Learn CMake through a series of task-based recipes that provide you with
+      practical, simple, and ready-to-use CMake solutions for your code.
+
+      The sources for the CMake Cookbook recipes are on
+      [GitHub](https://github.com/dev-cafe/cmake-cookbook).
+    role: Co-author
+  - name: Dalton and LSDalton
+    url: https://www.daltonprogram.org
+    image: dalton.jpg
+    text: |
+      Together, the two programs provide an extensive
+      functionality for the calculations of molecular properties at the HF, DFT,
+      MCSCF, and CC levels of theory.
+    role: |
+      CMake infrastructure, website, open-sourcing, migration to GitLab,
+      OpenRSP integration, magnetically-induced currents at the MCSCF level.
+  - name: OpenRSP
+    url: https://openrsp.org
+    image: https://raw.githubusercontent.com/openrsp/logo/master/logo.png
+    text: |
+      Program for the open-ended calculation of response properties. It
+      connects to response equation solution routines, routines for differentiated
+      one-electron and two-electron integral contributions, and routines for
+      exchange/correlation contributions to enable the calculation of response
+      properties to arbitrary order.
+    role: |
+      CMake infrastructure, website, open-sourcing, exchange-correlation
+      contributions.
   - name: SYMBIOSES
     url: http://barentssea.symbioses.no
     text: |
@@ -141,13 +151,6 @@ projects:
     role: |
       Code maintenance, code optimization, computations, web app. I was part
       of this project for two years.
-  - name: numgrid
-    url: https://github.com/dftlibs/numgrid
-    image: dftlibs-logo.png
-    text: |
-      Numgrid is a library that produces numerical integration grid for molecules
-      based on atom coordinates, atom types, and basis set information. This library
-      can be built with C, Fortran, and Python bindings.
   - name: XCint
     url: https://github.com/dftlibs/xcint
     image: dftlibs-logo.png
@@ -198,20 +201,6 @@ projects:
       Code is on [GitHub](https://github.com/qmcurrents/gimic).
       Documentation is on [Read the Docs](https://gimic.readthedocs.io/).
     role: Code maintenance, CMake infrastructure, testing, code optimization.
-  - name: blob
-    url: https://github.com/densities/blob
-    text: |
-      Plots densities directly in your browser.
-  - name: balboa
-    url: https://github.com/bast/balboa
-    text: |
-      Balboa computes Gaussian basis functions and their derivatives. In the process
-      of rewriting to Rust.
-  - name: Numerov
-    url: https://github.com/bast/numerov
-    text: |
-      Compute vibrational levels, wavefunctions, and expectation values using the
-      Numerov-Cooley algorithm.
   - name: parselglossy
     url: https://github.com/dev-cafe/parselglossy
     image: parse.jpg
@@ -221,84 +210,8 @@ projects:
       Code is on [GitHub](https://github.com/dev-cafe/parselglossy).
       Documentation is on [Read the Docs](https://parselglossy.readthedocs.io/).
     role: Co-author
-  - name: Smeshing
-    url: https://github.com/bast/smeshing
-    image: smeshing.jpg
-    text: |
-      Mesh generator for unstructured triangular grids.
-
-      In the process of rewriting to Rust.
-  - name: Flanders
-    url: https://github.com/bast/flanders
-    image: flanders.png
-    text: |
-      Fast 2D nearest neighbor search with an angle.
-  - name: Coastal express
-    url: https://github.com/bast/coastal-express
-    text: |
-      Compute nearest neighbor distances along the coast with a view angle.
-  - name: Polygons
-    url: https://github.com/bast/polygons
-    text: |
-      Fast points-in-polygon test and distances to polygons.
-  - name: SMARTool
-    url: https://github.com/smartool/smartool-rus-eng
-    image: smartool.png
-    text: |
-      The Strategic Mastery of Russian Tool.
-    role: Implemented the web app.
-  - name: THREAT DEFUSER
-    url: https://threat-defuser.org/
-    image: threat-defuser.png
-    text: |
-      THREAT-DEFUSER explores the role of "soft" information strategies propagated
-      through mass and social media that constitute hybrid warfare. We investigate
-      Norwegian perceptions of Russia, as well as Russian perceptions of Norway, in
-      the context of Norwegian national security.
-    role: Website, soon more.
-  - name: Python 'open mike'
-    url: https://uit-no.github.io/python-open-mike/
-    text: |
-      Eventually it could be a platform where participants show something useful to
-      others. But it will take some time to warm up and until then each event will
-      have a theme and we will suggest exercises. Participants can prepare these
-      exercises but do not have to. We go through the exercise and solutions together
-      but those who have solved the exercises can present alternative solutions which
-      we discuss together.
-    role: Kept it alive for a while, might restart soon.
-  - name: huge
-    url: https://github.com/bast/huge
-    text: |
-      Find huge additions in Git history.
-  - name: Sonar
-    url: https://github.com/NordicHPC/sonar
-    text: |
-      Tool to profile usage of HPC resources by regularly probing processes using ps.
-      The code can do two things: take snapshots (sonar snap, typically every 20
-      minutes or so), and map them (sonar map, whenever you like) to
-      applications/projects/users. Integrates with
-      [sonar-web](https://github.com/NordicHPC/sonar-web)
-      to plot daily/weekly/monthly CPU usage summary for clusters.
-  - name: ascii2graph
-    url: https://github.com/bast/ascii2graph
-    text: |
-      Converts ASCII text to a graph (represented as a dictionary of connections and
-      angles). It can represent directed and undirected graphs.
-  - name: Space Invaders
-    url: http://bast.github.io/space-invaders/
-    text: |
-      A classic game. Unfinished fun project for teaching programming. Also useful
-      for procrastinating something else.
-
-      Code is on [GitHub](https://github.com/bast/space-invaders).
   - name: Go game
     url: https://github.com/bast/go-game
     image: go.png
     text: |
       Go game for the browser, implemented using [Vue.js](https://vuejs.org/).
-    role: Co-author
-  - name: Where is the ISS?
-    url: https://github.com/bast/iss
-    text: |
-      Tracks the International Space Station and displays its current position on the
-      globe.

@@ -3,5 +3,21 @@
 {% extends "base.html" %}
 
 {% block content %}
-  {{ macros::projects(count=30) }}
+  <div class="uk-child-width-expand@s" uk-grid>
+    <div class="uk-width-1-2@m">
+      <h1>Active projects</h1>
+      <hr>
+
+      {% set data = load_data(path="content/projects/data.yml") %}
+      {{ macros::projects(data=data.active, count=30) }}
+    </div>
+
+    <div class="uk-width-1-2@m">
+      <h1>Past or on standby</h1>
+      <hr>
+
+      {% set data = load_data(path="content/projects/data.yml") %}
+      {{ macros::projects(data=data.standby, count=30) }}
+    </div>
+  </div>
 {% endblock content %}

@@ -5,6 +5,9 @@
 {% block content %}
   {% set data = load_data(path="content/cv.yml") %}
 
+  <h1>Curriculum Vitae</h1>
+  <hr>
+
   <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
     <div>
       {{ macros::list(data=data.employment, heading="Current and previous employment") }}
