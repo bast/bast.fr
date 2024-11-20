@@ -8,7 +8,6 @@ active:
       with focus on reusability, reproducibility, and openness. We don't just
       give courses, but we are a training network that you can join to share
       the effort and bring better courses to your community.
-    role: Project lead
   - name: Nordic research software engineers
     url: https://nordic-rse.org/
     image: nordic-rse-map.png
@@ -17,22 +16,19 @@ active:
       and networking with fantastic people.
   - name: Sonar
     url: https://github.com/NordicHPC/sonar
+    image: sonar-small.png
     text: |
-      Tool to profile usage of HPC resources by regularly probing processes using ps.
-      The code can do two things: take snapshots (sonar snap, typically every 20
-      minutes or so), and map them (sonar map, whenever you like) to
-      applications/projects/users. Integrates with
-      [sonar-web](https://github.com/NordicHPC/sonar-web)
-      to plot daily/weekly/monthly CPU usage summary for clusters.
+      Tool to profile usage of HPC resources by regularly probing processes.
   - name: numgrid
     url: https://github.com/dftlibs/numgrid
     image: dftlibs-logo.png
     text: |
-      Numgrid is a library that produces numerical integration grid for molecules
-      based on atom coordinates, atom types, and basis set information. This library
-      can be built with C, Fortran, and Python bindings.
+      Numgrid is a library that produces numerical integration grid for
+      molecules based on atom coordinates, atom types, and basis set
+      information. This library provides Rust and Python bindings.
   - name: Polygons
     url: https://github.com/bast/polygons
+    image: polygons.png
     text: |
       Fast points-in-polygon test and distances to polygons.
   - name: Cicero
@@ -48,7 +44,6 @@ active:
 
       Code is on [GitHub](https://github.com/bast/cicero).
       Documentation is on [Read the Docs](https://cicero.readthedocs.io/).
-    role: Idea and initial implementation
   - name: Flanders
     url: https://github.com/bast/flanders
     image: flanders.png
@@ -66,13 +61,11 @@ active:
       through mass and social media that constitute hybrid warfare. We investigate
       Norwegian perceptions of Russia, as well as Russian perceptions of Norway, in
       the context of Norwegian national security.
-    role: Website, soon more.
   - name: SMARTool
     url: https://github.com/smartool/smartool-rus-eng
     image: smartool.png
     text: |
       The Strategic Mastery of Russian Tool.
-    role: Implemented the initial web app.
   - name: runtest
     url: http://runtest.readthedocs.io
     image: https://raw.githubusercontent.com/bast/runtest/master/img/runtest-small.png
