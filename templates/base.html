@@ -18,16 +18,19 @@
   <body>
     <div class="uk-container uk-margin-large-bottom">
 
-      {% include "navigation.html" %}
+      <div class="uk-margin-bottom">
+        {% include "navigation.html" %}
+      </div>
 
       <div class="markdown">
         {% block content %}
         {% endblock content %}
       </div>
 
-      <hr>
-
-      {% include "footer.html" %}
+      <div class="uk-margin-large-top">
+        <hr>
+        {% include "footer.html" %}
+      </div>
 
     </div>
   </body>
