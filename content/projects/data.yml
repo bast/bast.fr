@@ -31,6 +31,19 @@ active:
     image: polygons.png
     text: |
       Fast points-in-polygon test and distances to polygons.
+  - name: Tromsø paragliding
+    url: https://tromso-paragliding.xyz
+    image: tromso-paragliding.png
+    text: |
+      Info about Tromso paragliding weather/areas for new/visiting pilots.
+  - name: History-window
+    url: https://github.com/bast/history-window
+    text: |
+      Show command history "picture-in-picture" when teaching command line.
+  - name: TMS location
+    url: https://github.com/bast/tms-location
+    text: |
+      Code to visualize and locate points for trans-cranial magnetic stimulation (TMS).
   - name: Cicero
     url: https://cicero.xyz
     text: |
