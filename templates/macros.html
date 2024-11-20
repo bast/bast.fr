@@ -22,43 +22,41 @@
 {% macro projects(data, count) %}
   {% for project in data %}
     {% if loop.index <= count %}
-      <div class="uk-child-width-expand@s" uk-grid>
-        <div class="uk-width-1-6@s">
-          {% if project.image %}
-            <a target="_blank" href="{{ project.url | safe }}">
-              {% if 'http' in project.image %}
-                <img src="{{ project.image | safe }}"
-                     alt="{{ project.name }} project icon"
-                     width="100">
-              {% else %}
-                {% set img = resize_image(path="projects/" ~ project.image, width=100, op="fit_width") %}
-                <img src="{{ img.url }}"
-                     alt="{{ project.name }} project icon">
-              {% endif %}
-            </a>
-          {% else %}
-            <!-- <img src="/images/wireframe/image.png"> -->
-          {% endif %}
-        </div>
-
-        <div class="uk-width-5-6@s">
-          <div class="content">
-            <h2>
-              <a target="_blank" href="{{ project.url | safe }}">{{ project.name }}</a>
-            </h2>
-            <p>{{ project.text | markdown | safe }}</p>
-            {% if project.role %}
-              <div class="uk-text-muted">
-                My role: {{ project.role }}
-              </div>
+      <div class="uk-margin-bottom">
+        <div class="uk-child-width-expand@s" uk-grid>
+          <div class="uk-width-1-6@s">
+            {% if project.image %}
+              <a target="_blank" href="{{ project.url | safe }}">
+                {% if 'http' in project.image %}
+                  <img src="{{ project.image | safe }}"
+                       alt="{{ project.name }} project icon"
+                       width="100">
+                {% else %}
+                  {% set img = resize_image(path="projects/" ~ project.image, width=100, op="fit_width") %}
+                  <img src="{{ img.url }}"
+                       alt="{{ project.name }} project icon">
+                {% endif %}
+              </a>
+            {% else %}
+              <!-- <img src="/images/wireframe/image.png"> -->
             {% endif %}
+          </div>
+
+          <div class="uk-width-5-6@s">
+            <div class="content">
+              <h2>
+                <a target="_blank" href="{{ project.url | safe }}">{{ project.name }}</a>
+              </h2>
+              <p>{{ project.text | markdown | safe }}</p>
+              {% if project.role %}
+                <div class="uk-text-muted">
+                  My role: {{ project.role }}
+                </div>
+              {% endif %}
+            </div>
           </div>
         </div>
       </div>
-    {% endif %}
-
-    {% if loop.index < count %}
-      <hr>
     {% endif %}
   {% endfor %}
 {% endmacro toc %}
