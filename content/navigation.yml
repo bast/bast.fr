@@ -1,8 +1,6 @@
 navigation:
   - name: Home
     target: /
-  - name: About
-    target: /about/
   - name: Projects
     target: /projects/
   - name: CV
