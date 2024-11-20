@@ -44,12 +44,14 @@
 
           <div class="uk-width-5-6@s">
             <div class="content">
-              <h2>
+              <h2 style="margin-bottom: -15px;">
                 <a target="_blank" href="{{ project.url | safe }}">{{ project.name }}</a>
               </h2>
-              <p>{{ project.text | markdown | safe }}</p>
+              <p>
+                {{ project.text | markdown | safe }}
+              </p>
               {% if project.role %}
-                <div class="uk-text-muted">
+                <div class="uk-text-muted" style="margin-top: -15px;">
                   My role: {{ project.role }}
                 </div>
               {% endif %}

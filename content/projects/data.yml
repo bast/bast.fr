@@ -48,13 +48,11 @@ active:
     url: https://cicero.xyz
     text: |
       Serving presentation slides written in Markdown.
-
       You can host your talk on GitHub or GitLab. Cicero will render it
       using remark of reveal.js on the fly.
       You can style your slides to your heart's content using CSS.
       No more "Can you please email me the slides after the workshop?".
       Talks become lightweight, reusable, versionable, branchable, and forkable.
-
       Code is on [GitHub](https://github.com/bast/cicero).
       Documentation is on [Read the Docs](https://cicero.readthedocs.io/).
   - name: Flanders
@@ -84,7 +82,6 @@ active:
     image: https://raw.githubusercontent.com/bast/runtest/master/img/runtest-small.png
     text: |
       Numerically tolerant end-to-end test library for scientific codes.
-
       The aim of this library is to make the testing and maintenance of tests easy.
       The library allows to extract portions of the program output(s) which are
       automatically compared to reference outputs with a relative or absolute
@@ -121,7 +118,6 @@ standby:
     text: |
       Learn CMake through a series of task-based recipes that provide you with
       practical, simple, and ready-to-use CMake solutions for your code.
-
       The sources for the CMake Cookbook recipes are on
       [GitHub](https://github.com/dev-cafe/cmake-cookbook).
     role: Co-author
@@ -165,7 +161,6 @@ standby:
       of the XC potential matrix VxcVxc, as well as their derivatives with respect to
       electric field and/or geometric perturbations. The integration is performed on
       a standard numerical grid.
-
       Code is on [GitHub](https://github.com/dftlibs/xcint).
       Documentation is on [Read the Docs](https://xcint.readthedocs.io/).
   - name: XCFun
@@ -177,7 +172,6 @@ standby:
       strategy which enables the computation of derivatives of the XC functional
       kernel up to arbitrary order. It does so by relying on forward-mode automatic
       differentiation.
-
       Code is on [GitHub](https://github.com/dftlibs/xcfun).
       Documentation is on [Read the Docs](https://xcfun.readthedocs.io/).
     role: Code maintenance, testing.
@@ -188,7 +182,6 @@ standby:
       This library computes arbitrary-order exchange-correlation function(al)
       derivatives using
       [JAX](https://jax.readthedocs.io/).
-
       The emphasis of this project is on ease of use and ease of adding functionals
       in Python. The focus is not (yet) on performance. Our hope is that this project
       can make it easier to test new implementations of functional derivatives but
@@ -203,7 +196,6 @@ standby:
       need to provide this program with a density matrix in atomic-orbital (AO) basis
       and three (effective) magnetically perturbed AO density matrices in the proper
       format.
-
       Code is on [GitHub](https://github.com/qmcurrents/gimic).
       Documentation is on [Read the Docs](https://gimic.readthedocs.io/).
     role: Code maintenance, CMake infrastructure, testing, code optimization.
@@ -212,7 +204,6 @@ standby:
     image: parse.jpg
     text: |
       Generic input parsing library, speaking in tongues.
-
       Code is on [GitHub](https://github.com/dev-cafe/parselglossy).
       Documentation is on [Read the Docs](https://parselglossy.readthedocs.io/).
     role: Co-author
