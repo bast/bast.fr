@@ -335,3 +335,38 @@ publications:
     page: 147
     year: 2018
     doi: 10.1002/chir.22785
+
+  - authors: J. M. H. Olsen, S. S. Reine, O. Vahtras, E. Kjellgren, P. Reinholdt, K. O. H. Dundas, X. Li, J. Cukras, M. Ringholm, E. D. Hedegård, R. Di Remigio, N. H. List, R. Faber, B. N. C. Tenorio, R. Bast, T. B. Pedersen, Z. Rinkevicius, S. P. A. Sauer, K. V. Mikkelsen, J. Kongsted, S. Coriani, K. Ruud, T. Helgaker, H. J. Aa. Jensen, P. Norman
+    title: |
+      "Dalton Project: A Python platform for molecular- and electronic-structure simulations of complex systems"
+    journal: J. Chem. Phys.
+    volume: 152
+    page: 214115
+    year: 2020
+    doi: 10.1063/1.5144298
+
+  - authors: O. J. Broch, R. Nepstad, I. H. Ellingsen, R. Bast, G. M. Skeie, J. Carroll
+    title: |
+      Simulating crude oil exposure, uptake and effects in North Atlantic Calanus finmarchicus populations
+    journal: Mar. Environ. Res.
+    volume: 162
+    page: 105184
+    year: 2020
+    doi: 10.1016/j.marenvres.2020.105184
+
+  - authors: R. K. Jinger, H. Fliegl, R. Bast, M. Dimitrova, S. Lehtola, D. Sundholm
+    title: Spatial Contributions to Nuclear Magnetic Shieldings
+    journal: J. Phys. Chem. A
+    volume: 125
+    page: 1778
+    year: 2021
+    doi: 10.1021/acs.jpca.0c10884
+
+  - authors: K. O. H. Dundas, M. Beerepoot, M. Ringholm, S. S. Reine, R. Bast, N. H. List, J. Kongsted, K. Ruud, J. M. H. Olsen
+    title: |
+      Harmonic Infrared and Raman Spectra in Molecular Environments Using the Polarizable Embedding Model
+    journal: J. Chem. Theory Comput.
+    volume: 17
+    page: 3599
+    year: 2021
+    doi: 10.1021/acs.jctc.0c01323
