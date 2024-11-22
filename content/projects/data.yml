@@ -8,6 +8,13 @@ active:
       with focus on reusability, reproducibility, and openness. We don't just
       give courses, but we are a training network that you can join to share
       the effort and bring better courses to your community.
+  - name: Research software engineering group at UiT
+    url: https://research-software.uit.no
+    image: rse-uit.png
+    text: |
+      We want to help all researchers and students at UiT to develop and
+      improve their research software. This can span from simple R or Python
+      scripts to complex GPU enabled software packages.
   - name: Nordic research software engineers
     url: https://nordic-rse.org/
     image: nordic-rse-map.png
