@@ -13,9 +13,9 @@
   <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
 </nav>
 
-<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+<div id="sidenav" uk-offcanvas>
   <div class="uk-offcanvas-bar">
-    <ul class="uk-nav">
+    <ul class="uk-nav uk-nav-default">
       {% for link in data.navigation %}
         {% if link.target is starting_with("http") %}
           <li><a href="{{ link.target }}" target="_blank">{{ link.name }}</a></li>
