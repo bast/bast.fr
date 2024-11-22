@@ -265,7 +265,7 @@ sections:
         text: Understanding Open Source and Free Software Licensing
       - url: https://tldrlegal.com
         text: Software Licenses in Plain English
-  - name: People
+  - name: People with interesting blogs
     links:
       - url: http://people.sc.fsu.edu/~jburkardt/
         text: John Burkardt
@@ -277,6 +277,10 @@ sections:
         text: Josh Haberman
       - url: https://danielskatzblog.wordpress.com/
         text: Daniel S. Katz's blog
+      - url: https://simonwillison.net
+        text: Simon Willison
+      - url: https://jvns.ca
+        text: Julia Evans
   - name: Photography
     links:
       - url: http://edelmangallery.com/exhibitions-and-projects/exhibition-pages/2014/sandro-miller-malkovich,-malkovich,-malkovich-homage-to-photographic-masters.html
