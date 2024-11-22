@@ -21,6 +21,8 @@ sections:
         text: Parallel Computing and Scientific Machine Learning
       - url: http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf
         text: Best Practices for ML Engineering
+      - url: https://bookdown.org/home/tags/statistics/
+        text: Books about statistics
   - name: Category theory
     links:
       - url: https://www.infoq.com/presentations/category-theory-propositions-principle/
@@ -127,6 +129,8 @@ sections:
         text: Silicon Valley Dictionary
       - url: https://www.thisiscolossal.com/2017/03/miniature-retro-papercraft-synthesizers-by-dan-mcpharlin/
         text: Miniature Retro Papercraft Synthesizers by Dan McPharlin
+      - url: https://github-roast.pages.dev
+        text: GitHub Roaster
   - name: Games
     links:
       - url: http://dmle.sourceforge.net
@@ -251,6 +255,8 @@ sections:
         text: 'The Big Data Brain Drain: Why Science is in Trouble'
       - url: http://www.bcl.hamilton.ie/~barak/how-to-review.html
         text: How to Review a Scientific Paper
+      - url: https://journal.trialanderror.org/pub/the-invisible-workload/release/1
+        text: The Invisible Workload of Open Research
   - name: Open source
     links:
       - url: https://www.fordfoundation.org/about/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/
@@ -281,6 +287,8 @@ sections:
         text: Simon Willison
       - url: https://jvns.ca
         text: Julia Evans
+      - url: https://xeiaso.net
+        text: Xe Iaso
   - name: Photography
     links:
       - url: http://edelmangallery.com/exhibitions-and-projects/exhibition-pages/2014/sandro-miller-malkovich,-malkovich,-malkovich-homage-to-photographic-masters.html
