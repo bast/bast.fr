@@ -229,6 +229,14 @@ sections:
         text: Textures.js
       - url: https://www.bryanbraun.com/anchorjs/
         text: AnchorJS
+  - name: Learning programming
+    links:
+      - url: https://de-rse.org/learn-and-teach/
+        text: Learning and teaching research software engineering
+      - url: https://programminghistorian.org/
+        text: Programming Historian
+      - url: https://pll.harvard.edu/course/cs50-introduction-computer-science
+        text: "CS50: Introduction to Computer Science"
   - name: Linux and shell
     links:
       - url: https://effective-shell.com
@@ -241,6 +249,8 @@ sections:
         text: SSH key tutorial
       - url: https://overthewire.org/wargames/
         text: Wargames by OverTheWire
+      - url: https://risanb.com/code/backup-restore-gpg-key/
+        text: How to Backup and Restore Your GPG Key
   - name: Music
     links:
       - url: https://en.wikipedia.org/wiki/Nurse_with_Wound_list
