@@ -1,4 +1,12 @@
 sections:
+  - name: AI stuff
+    links:
+      - url: https://www.oneusefulthing.org/p/getting-started-with-ai-good-enough
+        text: "Getting started with AI: Good enough prompting"
+      - url: https://llmlitigation.com
+        text: LLM litigation
+      - url: https://www.wired.com/story/matthew-butterick-ai-copyright-lawsuits-openai-meta/
+        text: Meet the Lawyer Leading the Human Resistance Against AI
   - name: Books
     links:
       - url: https://natureofcode.com
