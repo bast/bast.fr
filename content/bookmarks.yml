@@ -327,6 +327,8 @@ sections:
     links:
       - url: https://p5js.org
         text: p5.js
+      - url: https://lean-lang.org
+        text: Lean
       - url: https://liascript.github.io
         text: LiaScript
       - url: https://futhark-lang.org
@@ -443,6 +445,8 @@ sections:
         text: Programming Fonts
   - name: Unsorted
     links:
+      - url: https://interactionmagic.com/UX-LEGO-Interfaces
+        text: The UX of LEGO Interface Panels
       - url: https://oeis.org
         text: The On-Line Encyclopedia of Integer Sequences
       - url: https://www.black-holes.org
