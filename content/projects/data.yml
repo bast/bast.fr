@@ -26,6 +26,11 @@ active:
     image: sonar-small.png
     text: |
       Tool to profile usage of HPC resources by regularly probing processes.
+  - name: TMS location
+    url: https://github.com/bast/tms-location
+    image: tms-screenshot.png
+    text: |
+      Code to visualize and locate points for trans-cranial magnetic stimulation (TMS).
   - name: numgrid
     url: https://github.com/dftlibs/numgrid
     image: dftlibs-logo.png
