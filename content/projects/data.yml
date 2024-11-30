@@ -5,9 +5,7 @@ active:
     text: |
       We teach all the essential tools which are usually skipped in academic
       education so everyone can make full use of software, computing, and data
-      with focus on reusability, reproducibility, and openness. We don't just
-      give courses, but we are a training network that you can join to share
-      the effort and bring better courses to your community.
+      with focus on reusability, reproducibility, and openness.
   - name: Research software engineering group at UiT
     url: https://research-software.uit.no
     image: rse-uit.png
