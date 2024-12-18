@@ -409,6 +409,12 @@ sections:
         text: Automating GIS Processes 2024
       - url: https://www.nltk.org/book/
         text: Natural Language Processing with Python
+  - name: Regular expressions
+    links:
+      - url: https://regexcrossword.com
+        text: Regex Crossword
+      - url: https://regex101.com
+        text: Regular expressions 101
   - name: Research software
     links:
       - url: https://www.economist.com/science-and-technology/2016/03/23/of-more-than-academic-interest
