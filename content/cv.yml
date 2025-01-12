@@ -94,6 +94,14 @@ mentoring:
       CTCC/ University of Tromsø, Tromsø, Norway
 
 teaching:
+  - year: 2025
+    text: |
+      2-day course [Python Progression: Moving Beyond the Basics](https://coderefinery.github.io/python-progression/)
+      at the [Hylleraas School 2025](https://www.mn.uio.no/hylleraas/english/news-and-events/events/events-in-oslo/2025/hylleraas-school-2025.html)
+      in Norway
+  - year: 2024
+    text: |
+      6-day FAIR data visualization PhD course at UiT The Arctic University of Norway
   - year: 2024
     text: |
       Delivered a 3-day workshop
