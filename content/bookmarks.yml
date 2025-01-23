@@ -259,6 +259,10 @@ sections:
         text: Wargames by OverTheWire
       - url: https://risanb.com/code/backup-restore-gpg-key/
         text: How to Backup and Restore Your GPG Key
+      - url: https://google.github.io/styleguide/shellguide.html
+        text: Google Shell Style Guide
+      - url: https://tldp.org/LDP/abs/html/
+        text: Advanced Bash-Scripting Guide
   - name: Music
     links:
       - url: https://en.wikipedia.org/wiki/Nurse_with_Wound_list
