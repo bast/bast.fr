@@ -9,16 +9,14 @@ and am involved in building the community of
 [Nordic research software engineers](https://nordic-rse.org/).
 
 I work at the [UiT The Arctic University of Norway](https://uit.no)
-as part of the [Norwegian e-infrastructure for research and education](https://www.nris.no)
+as part of the [Norwegian e-infrastructure for research and education](https://sigma2.no)
 and lead the [High Performance Computing Group](https://hpc.uit.no)
 and the [Research Software Engineering Group](https://research-software.uit.no) at UiT.
 
-Earlier, I have worked at the
-[Laboratoire de Chimie et Physique Quantiques](http://www.lcpq.ups-tlse.fr/?lang=en) in Toulouse,
-and
-[PDC](https://www.pdc.kth.se)
-and
-[Theoretical Chemistry and Biology](https://www.theochem.kth.se) in Stockholm.
+Earlier, I have worked at the [Laboratoire de Chimie et Physique
+Quantiques](https://www.lcpq.ups-tlse.fr) in Toulouse, and
+[PDC](https://www.pdc.kth.se) and the Theoretical Chemistry and Biology group
+in Stockholm.
 
 [Email](mailto:firstname.lastname@uit.no)
 |
