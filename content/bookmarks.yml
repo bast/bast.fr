@@ -443,6 +443,8 @@ sections:
         text: Scientific Computing in Rust
       - url: https://rust-edu.zulip.cs.pdx.edu
         text: rust-edu Zulip
+      - url: https://without.boats/blog/the-registers-of-rust/
+        text: The registers of Rust
   - name: Security
     links:
       - url: http://www.genaud.net/2013/11/password-cracking/password-cracking-v0.html
