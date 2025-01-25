@@ -355,6 +355,8 @@ sections:
         text: Hyperpolyglot
       - url: http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
         text: C++ Core Guidelines
+      - url: https://www.uiua.org
+        text: Uiua
   - name: Numerical precision
     links:
       - url: https://floating-point-gui.de
@@ -419,6 +421,8 @@ sections:
         text: Regex Crossword
       - url: https://regex101.com
         text: Regular expressions 101
+      - url: https://regex-generator.olafneumann.org
+        text: Regex Generator
   - name: Research software
     links:
       - url: https://www.economist.com/science-and-technology/2016/03/23/of-more-than-academic-interest
