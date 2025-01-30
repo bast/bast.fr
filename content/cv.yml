@@ -1,15 +1,17 @@
 ---
 employment:
   - start: 2016
-    end: present
+    end: 2025
     text: |
-      Managing the [CodeRefinery](https://coderefinery.org) project \
-      [Nordic e-Infrastructure Collaboration](https://neic.no), 50% position
+      Managed the [CodeRefinery](https://coderefinery.org) project
+      with a 50% position funded be the
+      [Nordic e-Infrastructure Collaboration](https://neic.no)
   - start: 2015
-    end: present
+    end: 2025
     text: |
       Senior engineer at the [High Performance Computing Group](https://hpc.uit.no), UiT The Arctic University of Norway, Tromsø, Norway \
-      Leading the [HPC group](https://hpc.uit.no) and the [research software engineering (RSE) group](https://research-software.uit.no)
+      [HPC group](https://hpc.uit.no) lead \
+      [Research software engineering (RSE) group](https://research-software.uit.no) lead
   - start: 2013
     end: 2015
     text: |
@@ -69,14 +71,14 @@ awards:
 
 mentoring:
   - start: 2022
-    end: present
+    end: 2025
     text: |
-      Leading the [HPC group](https://hpc.uit.no) at UiT The Arctic University of Norway, Tromsø, Norway:
+      Lead the [HPC group](https://hpc.uit.no) at UiT The Arctic University of Norway, Tromsø, Norway:
       Team of 12 engineers
   - start: 2022
-    end: present
+    end: 2025
     text: |
-      Leading the [research software engineering (RSE) group](https://research-software.uit.no) at UiT The Arctic University of Norway, Tromsø, Norway:
+      Lead the [research software engineering (RSE) group](https://research-software.uit.no) at UiT The Arctic University of Norway, Tromsø, Norway:
       Team of 5 engineers
   - year: 2015
     text: |
@@ -94,6 +96,11 @@ mentoring:
       CTCC/ University of Tromsø, Tromsø, Norway
 
 teaching:
+  - year: 2025
+    text: |
+      4-day course
+      [Reproducible research software development using Python](https://coderefinery.github.io/reproducible-python-ml/)
+      for the [UiT Machine Learning Group](https://machine-learning.uit.no/)
   - year: 2025
     text: |
       2-day course [Python Progression: Moving Beyond the Basics](https://coderefinery.github.io/python-progression/)
