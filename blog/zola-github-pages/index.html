@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Radovan Bast</title>
+    <link rel="shortcut icon" href="https://bast.fr/img/favicon.ico">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.22.4/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.22.4/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.22.4/dist/js/uikit-icons.min.js"></script>
+
+    <link href="https://bast.fr/style.css" rel="stylesheet">
+    <link href="https://bast.fr/fonts.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="uk-container uk-margin-large-bottom">
+
+      <div class="uk-margin-bottom">
+        
+
+<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <ul class="uk-navbar-nav uk-visible@s">
+    
+      
+        <li><a href="https://bast.fr">Home</a></li>
+      
+    
+      
+        <li><a href="https://bast.fr/projects">Projects</a></li>
+      
+    
+      
+        <li><a href="https://bast.fr/cv">CV</a></li>
+      
+    
+      
+        <li><a href="https://bast.fr/publications">Publications</a></li>
+      
+    
+      
+        <li><a href="https://bast.fr/bookmarks">Bookmarks</a></li>
+      
+    
+  </ul>
+  <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+</nav>
+
+<div id="sidenav" uk-offcanvas>
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav uk-nav-default">
+      
+        
+          <li><a href="https://bast.fr">Home</a></li>
+        
+      
+        
+          <li><a href="https://bast.fr/projects">Projects</a></li>
+        
+      
+        
+          <li><a href="https://bast.fr/cv">CV</a></li>
+        
+      
+        
+          <li><a href="https://bast.fr/publications">Publications</a></li>
+        
+      
+        
+          <li><a href="https://bast.fr/bookmarks">Bookmarks</a></li>
+        
+      
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <div class="markdown">
+        
+  <article class="uk-article">
+
+    <h1 class="uk-article-title"><a class="uk-link-reset" href="">Using Zola (and other static site generators) with GitHub Pages without the need for an access token</a></h1>
+
+    <p class="uk-article-meta">
+      
+      September 19, 2020
+      
+    </p>
+
+    <hr>
+
+    <h2 id="moving-from-jekyll-to-zola">Moving from Jekyll to Zola</h2>
+<p>There are many static site generators:
+<a href="https://jekyllrb.com/">Jekyll</a>,
+<a href="https://jaspervdj.be/hakyll/">Hakyll</a>,
+<a href="https://gohugo.io/">Hugo</a>,
+<a href="https://hexo.io/">Hexo</a>,
+<a href="https://www.getlektor.com/">Lector</a>,
+<a href="https://www.sphinx-doc.org/">Sphinx</a>,
+<a href="https://www.mkdocs.org/">MkDocs</a>,
+<a href="https://www.gitbook.com/">GitBook</a>,
+<a href="https://blog.getpelican.com/">Pelican</a>,
+<a href="https://www.11ty.dev/">11ty</a>,
+<a href="https://www.getzola.org/">Zola</a>,
+and many others.</p>
+<p>I have used Jekyll for many years in many projects and one of the reasons why
+it is so popular is that it is supported by <a href="https://pages.github.com/">GitHub
+Pages</a> out of the box, without doing any extra
+steps.  This makes it comparably simple to deploy blogs, homepages, and project
+websites without running own web servers.</p>
+<p>But recently I started exploring alternatives to Jekyll because it felt like
+not a perfect fit for what I wanted to do. I often felt I am pressing something
+else than a blog into a framework designed for blogs.  I was looking for
+a framework where I can more easily customize things, where I achieve a better
+separation between content and form, and where I know the underlying language
+better.</p>
+<p>In the recent weeks have tested many of the above tools and really liked Hugo
+but my favorite static site generator at the moment is
+<a href="https://www.getzola.org/">Zola</a>, and I have migrated already few projects to
+Zola.  Zola really stood out, offers super fast build and rebuild, easy
+installation, a link checker, clever image processing, shortcodes (reusable
+macros), and much more. Overall the folder layout and the scaffold structure
+maps better to how I think about a website.</p>
+<p>What I wanted to find out is: <strong>how can I use
+Zola on GitHub Pages with the same ease as Jekyll: commit and push files and
+that's it</strong>.</p>
+<h2 id="deploying-to-github-pages-using-github-actions-and-using-a-personal-access-token">Deploying to GitHub Pages using GitHub Actions and using a personal access token</h2>
+<p>I was following
+<a href="https://www.getzola.org/documentation/deployment/github-pages/#github-actions">this recipe</a>
+until now.</p>
+<p>The approach described there requires creating a personal access token and
+storing it as a <em>secret</em>.  This is not difficult and it only takes 2 minutes to
+set up but I was never fully happy with this solution because of the
+bus/lottery factor (how many persons have to be run over by a bus or win the
+lottery for a project to become unmaintained). I wanted to create open source
+websites which anybody can contribute to and which do not depend on me creating
+and maintaining access tokens now or in future.</p>
+<h2 id="how-to-build-the-page-without-creating-a-personal-access-token">How to build the page without creating a personal access token</h2>
+<p>It is indeed possible! And the approach described here should work for many of
+the mentioned static site generators (I am using this not only for Zola but
+also for pages built with Sphinx).</p>
+<p>All you need to do is to add (and adapt, more about this later) the file
+<code>.github/workflows/build.yml</code> to your GitHub repository with the following content
+(I am grateful to Richard Darst for many improvements of the original workflow
+towards its current form):</p>
+<pre data-lang="yml" style="background-color:#f5f5f5;color:#1f1f1f;" class="language-yml "><code class="language-yml" data-lang="yml"><span style="color:#7f902a;">name</span><span>: </span><span style="color:#d07711;">Build/deploy website
+</span><span>
+</span><span style="color:#7f902a;">env</span><span>:
+</span><span>  </span><span style="color:#7f902a;">ZOLA_VERSION</span><span>: </span><span style="color:#d07711;">&quot;0.15.3&quot;
+</span><span>  </span><span style="color:#7f902a;">SOURCE_BRANCH</span><span>: </span><span style="color:#d07711;">&quot;main&quot;
+</span><span>  </span><span style="color:#7f902a;">TARGET_BRANCH</span><span>: </span><span style="color:#d07711;">&quot;gh-pages&quot;
+</span><span>
+</span><span style="color:#b3933a;">on</span><span>:
+</span><span>  </span><span style="color:#7f902a;">push</span><span>:
+</span><span>    </span><span style="color:#7f902a;">branches</span><span>:
+</span><span>      - </span><span style="color:#d07711;">main
+</span><span>  </span><span style="color:#7f902a;">pull_request</span><span>:
+</span><span>    </span><span style="color:#7f902a;">branches</span><span>:
+</span><span>      - </span><span style="color:#d07711;">main
+</span><span>
+</span><span style="color:#7f902a;">jobs</span><span>:
+</span><span>  </span><span style="color:#7f902a;">build</span><span>:
+</span><span>    </span><span style="color:#7f902a;">runs-on</span><span>: </span><span style="color:#d07711;">ubuntu-latest
+</span><span>    </span><span style="color:#7f902a;">steps</span><span>:
+</span><span>    - </span><span style="color:#7f902a;">name</span><span>: </span><span style="color:#d07711;">Check out repo
+</span><span>      </span><span style="color:#7f902a;">uses</span><span>: </span><span style="color:#d07711;">actions/checkout@v2
+</span><span>    - </span><span style="color:#7f902a;">name</span><span>: </span><span style="color:#d07711;">Install zola
+</span><span>      </span><span style="color:#7f902a;">run</span><span>: </span><span style="color:#72ab00;">|
+</span><span style="color:#d07711;">        set -x
+</span><span style="color:#d07711;">        wget -O - \
+</span><span style="color:#d07711;">           &quot;https://github.com/getzola/zola/releases/download/v${ZOLA_VERSION}/zola-v${ZOLA_VERSION}-x86_64-unknown-linux-gnu.tar.gz&quot; \
+</span><span style="color:#d07711;">        | sudo tar xzf - -C /usr/local/bin
+</span><span>    - </span><span style="color:#7f902a;">name</span><span>: </span><span style="color:#d07711;">Generate HTML
+</span><span>      </span><span style="color:#7f902a;">run</span><span>: </span><span style="color:#d07711;">zola build
+</span><span>    - </span><span style="color:#7f902a;">name</span><span>: </span><span style="color:#d07711;">Deploy to gh-pages
+</span><span>      </span><span style="color:#7f902a;">if</span><span>: </span><span style="color:#d07711;">${{ github.event_name == &#39;push&#39; &amp;&amp; github.ref == format(&#39;refs/heads/{0}&#39;, env.SOURCE_BRANCH) }}
+</span><span>      </span><span style="color:#7f902a;">uses</span><span>: </span><span style="color:#d07711;">peaceiris/actions-gh-pages@v3
+</span><span>      </span><span style="color:#7f902a;">with</span><span>:
+</span><span>        </span><span style="color:#7f902a;">github_token</span><span>: </span><span style="color:#d07711;">${{ secrets.GITHUB_TOKEN }}
+</span><span>        </span><span style="color:#7f902a;">publish_dir</span><span>: </span><span style="color:#d07711;">./public
+</span><span>        </span><span style="color:#7f902a;">force_orphan</span><span>: </span><span style="color:#b3933a;">true
+</span></code></pre>
+<p>You will need to adapt <code>SOURCE_BRANCH</code> (this is where the Zola sources are; in
+this example: <code>main</code>) and <code>TARGET_BRANCH</code> (this is
+the branch which contains the generated HTML and is used by GitHub Pages; in
+this example: <code>gh-pages</code>).</p>
+<p>This workflow creates a new target branch every time the source branch is
+modified.</p>
+<ul>
+<li>For project pages of the form <code>github.com/mynamespace/myproject</code> the source
+branch is typically <code>main</code> and the target branch is typically <code>gh-pages</code>.</li>
+<li>The target branch is <code>master</code> for homepages or project pages of the form
+<code>github.com/myuser/myuser.github.io</code> and
+<code>github.com/myproject/myproject.github.io</code>. Make sure that <code>SOURCE_BRANCH</code> and
+<code>TARGET_BRANCH</code> have different names. In this case I like to call <code>SOURCE_BRANCH</code>
+as <code>source</code>.</li>
+</ul>
+<p>But the nice thing is that the above workflow is easily adaptable to either
+situation.</p>
+<p>Once you adapt, commit, and push this file, all that remains is to enable
+GitHub Pages under the repository settings page. That's it!</p>
+<h2 id="conclusion">Conclusion</h2>
+<p><a href="https://www.getzola.org/">Zola</a> is a really nice tool with great documentation - try it out!
+Indeed, this website is built using Zola and
+<a href="https://github.com/bast/bast.fr/blob/main/.github/workflows/build.yml">here</a>
+is the workflow that I am using to build this site.
+With the above recipe setting up a Zola build is no more difficult than setting
+up a Jekyll build.</p>
+<h2 id="edits">Edits</h2>
+<ul>
+<li>In a previous version of this post I was using <code>macos-10.15</code> for the build
+and not <code>ubuntu-latest</code>. I have later switched to <code>ubuntu-latest</code> for
+faster/sooner workflow runs.</li>
+</ul>
+
+
+  </article>
+
+      </div>
+
+      <div class="uk-margin-large-top">
+        <hr>
+        <div class="site-footer">
+  <ul class="uk-iconnav uk-text-muted">
+    <li class="uk-margin-large-right">
+      <a href="mailto:fistname.lastname@uit.no"
+         uk-icon="icon: mail">
+        firstname.lastname@gmail.com
+      </a>
+    </li>
+
+    <li class="uk-margin-large-right">
+      <a href="https://bsky.app/profile/radovan.bsky.social"
+         target="_blank"
+         uk-icon="icon: bluesky">
+        @radovan
+      </a>
+    </li>
+
+    <li class="uk-margin-large-right">
+      <a href="https://fosstodon.org/@radovan"
+         target="_blank"
+         uk-icon="icon: mastodon">
+        @radovan@fosstodon.org
+      </a>
+    </li>
+
+    <li class="uk-margin-large-right">
+      <a href="https://github.com/bast"
+         target="_blank"
+         uk-icon="icon: github">
+        @bast
+      </a>
+    </li>
+  </ul>
+</div>
+
+      </div>
+
+    </div>
+  </body>
+</html>
