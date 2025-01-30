@@ -100,7 +100,7 @@ teaching:
     text: |
       4-day course
       [Reproducible research software development using Python](https://coderefinery.github.io/reproducible-python-ml/)
-      for the [UiT Machine Learning Group](https://machine-learning.uit.no/)
+      for the [UiT Machine Learning Group](https://machine-learning.uit.no/) (FYS 8805)
   - year: 2025
     text: |
       2-day course [Python Progression: Moving Beyond the Basics](https://coderefinery.github.io/python-progression/)
