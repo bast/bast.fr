@@ -9,7 +9,8 @@ in the
 and in the community of
 [Nordic research software engineers](https://nordic-rse.org/).
 
-I work at the [UiT The Arctic University of Norway](https://uit.no)
+I work as senior scientist at [oceanbox.io](https://oceanbox.io).
+I have a 20% position at the [UiT The Arctic University of Norway](https://uit.no)
 as part of the [Norwegian e-infrastructure for research and education](https://sigma2.no)
 and the [High Performance Computing Group](https://hpc.uit.no).
 My focus at UiT is to help build
