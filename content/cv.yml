@@ -1,5 +1,9 @@
 ---
 employment:
+  - start: 2025
+    end: present
+    text: |
+      Senior scientist at [oceanbox.io](https://oceanbox.io/), Tromsø, Norway
   - start: 2016
     end: 2025
     text: |
@@ -12,6 +16,11 @@ employment:
       Senior engineer at the [High Performance Computing Group](https://hpc.uit.no), UiT The Arctic University of Norway, Tromsø, Norway \
       [HPC group](https://hpc.uit.no) lead \
       [Research software engineering (RSE) group](https://research-software.uit.no) lead
+  - start: 2021
+    end: 2022
+    text: |
+      IT Partner Tromsø AS, Tromsø, Norway \
+      40% position developing software for oceanography
   - start: 2013
     end: 2015
     text: |
