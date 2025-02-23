@@ -16,10 +16,9 @@ and the [High Performance Computing Group](https://hpc.uit.no).
 My focus at UiT is to help build
 the [Research Software Engineering Group](https://research-software.uit.no).
 
-Earlier, I have worked at the [Laboratoire de Chimie et Physique
-Quantiques](https://www.lcpq.ups-tlse.fr) in Toulouse, and
-[PDC](https://www.pdc.kth.se) and the Theoretical Chemistry and Biology group
-in Stockholm.
+Earlier, I have worked at the Laboratoire de Chimie et Physique Quantiques in
+Toulouse, and [PDC](https://www.pdc.kth.se) and the Theoretical Chemistry and
+Biology group in Stockholm.
 
 [Email](mailto:firstname.lastname@gmail.com)
 |
