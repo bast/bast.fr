@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/radovan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://bast.fr
+  * I am radovan (https://keybase.io/radovan) on keybase.
+  * I have a public key with fingerprint 36CE DAE1 6274 B9FF BACD  ABDD 7FC5 E51C FC10 DD3A
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101e174f72e2bf14403569f166e78bcec53f87b91681cc7dc51098f46437f46934e0a",
+      "fingerprint": "36cedae16274b9ffbacdabdd7fc5e51cfc10dd3a",
+      "host": "keybase.io",
+      "key_id": "7fc5e51cfc10dd3a",
+      "kid": "0101e174f72e2bf14403569f166e78bcec53f87b91681cc7dc51098f46437f46934e0a",
+      "uid": "bbeff6b92d3dae616ada5feb2cbc6319",
+      "username": "radovan"
+    },
+    "merkle_root": {
+      "ctime": 1533840855,
+      "hash_meta": "fa4d95889002ef21dbd7565f1c6c1e330833fd7a4853fbf40cc678110cdced74",
+      "seqno": 3434296
+    },
+    "revoke": {
+      "sig_ids": [
+        "d5d0f59bccaa36447dfbbe9e02db638b90f410a8a2ca29030252a87a0b5c024d0f"
+      ]
+    },
+    "service": {
+      "hostname": "bast.fr",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1533840866,
+  "expire_in": 157680000,
+  "prev": "730e24ac0385bfbde7aacaa807df458819876878b28f0c99e58d82c37cb8dfe2",
+  "seqno": 25,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMKwAnicrVNdaFxFGN21TWyDQaFioP48XKMQjXH+Z+5Sgk9SS9unPmjTss5v9rqb
+vdu7d1eXmrQiKVZoQZA8aIxQ1EallpZIq1RIYx+ECBZd0SClJVWC+FCptbTVBueG
+iiA+Og93uMM533fO+WbOdK/KdeXXN4dev9o3vio/P1dr5IYqBxZ3Byo2raCwOyjb
+lc1WjK2nxXJkgkIAIIAWcuI4skg5SAjAlIUOMma5UNpqip3gKoRMQK250RSCUDjC
+COb+G2JigQz6AxdVh21SS6Jq6stipq2RFjLEiQqdU1IbqYzhTlNLoXYaAmNwRizF
+9YzhxSlZtwNR7M/8T3FF3n/g/2fdjZVySlnnmAqRwV42g0waSZ1VSCvNMAwzYN0m
+VTliPTqRJm7KajDaH4zYpFyxxSSO0yxbnUYZAlKMBQGCUu9P1kvFEZtKT3SSmJAK
+EQKArEPQKMMpow5qpqHFGAiMneGSCK9eOQK0ZlxACLTxeXLiZdTtrmocFDDBBIXM
+K0hsMy7brHk9Gvap1YPCUGCoAY6GSmspMSOEG+cthhYgoxgWKgSOQCCFRFqiEGCA
+KJKCS6CoBoh4crBzNGuWNCO9Ujwb0y37fk7pgEu8mFoSp7GOK/6wlKa1eiGLJG3V
+MtTzVhVv8Ysqqhp/PzyjaZN6FFd9RB75r7QY6w/sC7UoscUoQ1DOBPAr62Ob2W3A
+wCIiNcCCKqeM5VJ6gwJ4e8THCkPhKX78SDigw9BSYQTSmGsljLPon/iQH0wqh31N
+H1pVpo3EBqNzsztW5/Jduc6O27KHk+tae9ffz0n1rMlNrTs2/ftzl5/6FPINq58V
+M+md08F12rvulfb83Y0OeXr84oZLg0v3tiY3L4ztXdL3fPTyT5tH33y779yVHyYX
+Kufawez3G4+MLecnD/7RMbPtxviW7R9c++0OMLCz83TjLVw6YejU1OK7e1/c9NKZ
+vie/mRW7Tg69dn7imZmvLu6bu39999o9PWPdxZuloxPxkVM3ejd9ePtytKO9fd/N
+wi/LwUPk7KOPdH778GOPT3++puf9w4X9b3zxyY+Dh7584NUH44Pz3x24hk5d7bw0
+f/bE4cv5k9cHNg62W+9s/XVrvDRx4b728fPm69x75adldTxSFxb27znOn7iiB8Ai
+PfTxFr6t1Zv7+bM/j/4FP9KE3w==
+=wcE2
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/radovan
+
+==================================================================
