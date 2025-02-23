@@ -445,6 +445,8 @@ sections:
         text: rust-edu Zulip
       - url: https://without.boats/blog/the-registers-of-rust/
         text: The registers of Rust
+      - url: https://google.github.io/comprehensive-rust/
+        text: Free Rust course developed by the Android team at Google
   - name: Security
     links:
       - url: http://www.genaud.net/2013/11/password-cracking/password-cracking-v0.html
